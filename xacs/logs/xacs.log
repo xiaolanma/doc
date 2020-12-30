@@ -1,0 +1,1759 @@
+2020-07-31 14:11:47:542[DEBUG][T:Thread-4][x.acs.main.e.run(?)]: mysql userdir =C:\Users\w\Desktop\xacs
+2020-07-31 14:11:47:548[ INFO][T:Thread-4][x.acs.main.e.run(?)]: Starting mysql server...
+2020-07-31 14:11:47:548[DEBUG][T:Thread-4][x.acs.main.e.run(?)]: start mysql [C:\Users\w\Desktop\xacs\mysql\bin\mysqld.exe, --defaults-file=C:\Users\w\Desktop\xacs\mysql\my.ini, --standalone]
+2020-07-31 14:11:47:549[DEBUG][T:Thread-5][x.acs.c.a.run(?)]: jetty server start at Fri Jul 31 14:11:47 CST 2020
+2020-07-31 14:11:47:569[ INFO][T:Thread-5][org.mortbay.log.Slf4jLog.info(67)]: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2020-07-31 14:11:47:740[ INFO][T:Thread-5][org.mortbay.log.Slf4jLog.info(67)]: jetty-6.1.20
+2020-07-31 14:11:48:255[ INFO][T:Thread-5][org.mortbay.log.Slf4jLog.info(67)]: Initializing Spring root WebApplicationContext
+2020-07-31 14:11:48:692[ INFO][T:Thread-4][x.acs.main.e.run(?)]: Mysql server Started.
+2020-07-31 14:11:51:801[ INFO][T:Thread-5][org.mortbay.log.Slf4jLog.info(67)]: Initializing Spring FrameworkServlet 'remoting'
+2020-07-31 14:11:52:060[ INFO][T:Thread-5][org.mortbay.log.Slf4jLog.info(67)]: Opened C:\Users\w\Desktop\xacs\logs\2020_07_31.request.log
+2020-07-31 14:11:52:072[ INFO][T:Thread-5][org.mortbay.log.Slf4jLog.info(67)]: Started SelectChannelConnector@0.0.0.0:80
+2020-07-31 14:11:52:072[ INFO][T:Thread-5][x.acs.c.a.run(?)]: Monitor Server listening 
+2020-07-31 14:11:53:864[ERROR][T:pool-2-thread-1][org.hibernate.util.JDBCExceptionReporter.logExceptions(78)]: Table 'xacs.propertybean' doesn't exist
+2020-07-31 14:11:54:645[ INFO][T:pool-2-thread-1][x.acs.bean.a.a(?)]: PATH: /WEB-INF/datamodel/TR-098 NAME: TR-098
+2020-07-31 14:11:55:282[ INFO][T:pool-2-thread-1][x.acs.bean.a.a(?)]: PATH: /WEB-INF/datamodel/TR-135 NAME: TR-135
+2020-07-31 14:11:55:480[ INFO][T:pool-2-thread-1][x.acs.bean.a.a(?)]: PATH: /WEB-INF/datamodel/TR-104 NAME: TR-104
+2020-07-31 14:11:55:655[ INFO][T:pool-2-thread-1][x.acs.bean.a.a(?)]: Start DataModel.LoadCache();
+2020-07-31 14:11:55:778[ INFO][T:pool-2-thread-1][x.acs.bean.a.a(?)]: Done DataModel.LoadCache();
+2020-07-31 14:11:55:779[ INFO][T:pool-2-thread-1][x.acs.bean.a.a(?)]: ACS Server Started................
+2020-07-31 14:12:09:850[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ptmzqd7f7avn@7533952
+2020-07-31 14:12:09:915[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 14:12:09:915[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 860403
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 14:12:09:928[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 14:12:09:958[DEBUG][T:8345839@qtp-24478976-7][x.acs.dao.HostsDAO.create(?)]: create new HostsBean hwid[1] serialno[525400CAB1D8] url[http://172.21.6.125:7547/]
+2020-07-31 14:12:09:969[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 14:12:09:970[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:12:09:975[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ptmzqd7f7avn@7533952
+2020-07-31 14:12:09:978[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 14:12:09:979[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.x@1be7ff5
+2020-07-31 14:12:09:982[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 14:12:09:983[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:12:09:985[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ptmzqd7f7avn@7533952
+2020-07-31 14:12:09:989[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:12:09:990[ INFO][T:Thread-29][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 14:12:09:990[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:10:008[ INFO][T:Thread-29][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 14:12:10:107[ INFO][T:Thread-29][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 14:12:10:114[ INFO][T:Thread-29][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 14:12:10:117[ INFO][T:Thread-29][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 14:12:10:117[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:12:10:118[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 14:12:10:118[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:12:10:118[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 14:12:10:118[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:12:10:119[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:12:10:123[DEBUG][T:Thread-29][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 14:12:10:125[ INFO][T:Thread-29][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 14:12:10:125[ INFO][T:Thread-29][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596179530121.20006460' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596179530121.20006460'
+2020-07-31 14:12:10:130[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@10c51ef] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:10:130[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 14:12:10:134[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:12:10:247[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ptmzqd7f7avn@7533952
+2020-07-31 14:12:10:251[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 14:12:10:251[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=30
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 14:12:10:251[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596179530121.20006460
+2020-07-31 14:12:10:254[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:12:10:255[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:10:256[DEBUG][T:Thread-29][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596179530121.20006460 req=Device.ManagementServer.PeriodicInformInterval=30
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 14:12:10:256[ INFO][T:Thread-29][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596179530121.20006460' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596179530121.20006460'] close
+2020-07-31 14:12:10:257[ INFO][T:Thread-29][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 14:12:10:257[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:12:10:257[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 14:12:10:257[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:12:10:257[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Value mismatch :Device.ManagementServer.PeriodicInformInterval  '1800'!='30'
+2020-07-31 14:12:10:258[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: Set parameters
+SetParameterValues request:
+	Device.ManagementServer.PeriodicInformInterval (xsd:unsignedInt) '1800'
+
+2020-07-31 14:12:10:258[DEBUG][T:Thread-29][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 14:12:10:259[ INFO][T:Thread-29][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 14:12:10:259[ INFO][T:Thread-29][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.SetParameterValues1596179530258.27419954' OR JMSCorrelationID='intrnl.unset.id.SetParameterValues1596179530258.27419954'
+2020-07-31 14:12:10:259[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[SetParameterValues request:
+	Device.ManagementServer.PeriodicInformInterval (xsd:unsignedInt) '1800'
+] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:10:259[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: SetParameterValues
+2020-07-31 14:12:10:263[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:12:10:515[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ptmzqd7f7avn@7533952
+2020-07-31 14:12:10:524[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is SetParameterValuesResponse
+2020-07-31 14:12:10:524[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.L@1b157ba
+2020-07-31 14:12:10:525[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.SetParameterValues1596179530258.27419954
+2020-07-31 14:12:10:526[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:12:10:528[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:10:546[DEBUG][T:Thread-29][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.SetParameterValues1596179530258.27419954 req=x.acs.a.L@18b19ed
+2020-07-31 14:12:10:547[ INFO][T:Thread-29][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.SetParameterValues1596179530258.27419954' OR JMSCorrelationID='intrnl.unset.id.SetParameterValues1596179530258.27419954'] close
+2020-07-31 14:12:10:547[ INFO][T:Thread-29][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=SetParameterValuesResponse
+2020-07-31 14:12:10:548[DEBUG][T:Thread-29][x.acs.servlet.e.a(?)]: set response x.acs.a.L@18b19ed
+2020-07-31 14:12:11:630[ INFO][T:2799187@qtp-24478976-6][x.acs.web.login.a.onSubmit(?)]: login clicked
+2020-07-31 14:12:15:529[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:15:529[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 14:12:15:530[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:12:20:022[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:ayno8m1lzj2j@23146419
+2020-07-31 14:12:20:029[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 14:12:20:029[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 860623
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 14:12:20:032[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 14:12:20:035[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 14:12:20:036[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:12:20:038[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:ayno8m1lzj2j@23146419
+2020-07-31 14:12:20:045[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 14:12:20:045[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.x@3337df
+2020-07-31 14:12:20:048[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 14:12:20:049[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:12:20:050[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:ayno8m1lzj2j@23146419
+2020-07-31 14:12:20:051[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:12:20:051[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:20:051[ INFO][T:Thread-32][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 14:12:20:055[ INFO][T:Thread-32][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 14:12:20:057[ INFO][T:Thread-32][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 14:12:20:058[ INFO][T:Thread-32][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 14:12:20:058[ INFO][T:Thread-32][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 14:12:20:058[ INFO][T:Thread-32][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 14:12:20:058[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:12:20:059[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 14:12:20:059[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:12:20:059[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 14:12:20:059[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:12:20:059[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:12:20:059[DEBUG][T:Thread-32][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 14:12:20:060[ INFO][T:Thread-32][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 14:12:20:060[ INFO][T:Thread-32][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596179540059.4225289' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596179540059.4225289'
+2020-07-31 14:12:20:060[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@1f27c91] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:20:061[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 14:12:20:064[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:12:20:143[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:ayno8m1lzj2j@23146419
+2020-07-31 14:12:20:146[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 14:12:20:146[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 14:12:20:146[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596179540059.4225289
+2020-07-31 14:12:20:147[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:12:20:147[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:20:148[DEBUG][T:Thread-32][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596179540059.4225289 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 14:12:20:148[ INFO][T:Thread-32][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596179540059.4225289' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596179540059.4225289'] close
+2020-07-31 14:12:20:148[ INFO][T:Thread-32][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 14:12:20:148[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:12:20:148[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 14:12:20:148[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:12:20:148[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 14:12:20:148[DEBUG][T:Thread-32][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 14:12:25:149[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:12:25:149[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 14:12:25:150[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:42:20:036[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:fzrm7oh6o9ps@5820080
+2020-07-31 14:42:20:043[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 14:42:20:043[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		2 PERIODIC: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.DeviceInfo.UpTime: 860623
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 14:42:20:046[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=null, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 14:42:20:050[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 14:42:20:050[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:42:20:052[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:fzrm7oh6o9ps@5820080
+2020-07-31 14:42:20:054[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:42:20:054[ INFO][T:Thread-33][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 14:42:20:054[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:42:20:058[ INFO][T:Thread-33][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 14:42:20:059[ INFO][T:Thread-33][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 14:42:20:060[ INFO][T:Thread-33][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 14:42:20:060[ INFO][T:Thread-33][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 14:42:20:060[ INFO][T:Thread-33][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 14:42:20:060[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:42:20:060[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 14:42:20:060[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:42:20:060[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 14:42:20:060[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:42:20:061[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:42:20:062[DEBUG][T:Thread-33][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 14:42:20:063[ INFO][T:Thread-33][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[null] 
+2020-07-31 14:42:20:063[ INFO][T:Thread-33][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596181340061.29675590' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596181340061.29675590'
+2020-07-31 14:42:20:067[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@18c55fe] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:42:20:068[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 14:42:20:072[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:42:20:182[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:fzrm7oh6o9ps@5820080
+2020-07-31 14:42:20:187[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 14:42:20:187[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 14:42:20:187[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596181340061.29675590
+2020-07-31 14:42:20:189[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:42:20:189[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:42:20:190[DEBUG][T:Thread-33][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596181340061.29675590 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 14:42:20:190[ INFO][T:Thread-33][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596181340061.29675590' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596181340061.29675590'] close
+2020-07-31 14:42:20:190[ INFO][T:Thread-33][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 14:42:20:190[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 14:42:20:190[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 14:42:20:190[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 14:42:20:190[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 14:42:20:190[DEBUG][T:Thread-33][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 14:42:20:197[ INFO][T:Thread-33][x.acs.servlet.e.run(?)]: not backup for host[525400CAB1D8] because save log is false
+2020-07-31 14:42:20:200[ INFO][T:Thread-33][x.acs.servlet.e.run(?)]: not backup for host[525400CAB1D8] because save cfg is false
+2020-07-31 14:42:20:202[DEBUG][T:Thread-33][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 14:42:20:202[ INFO][T:Thread-33][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[null] 
+2020-07-31 14:42:20:203[ INFO][T:Thread-33][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterNames1596181340201.29486396' OR JMSCorrelationID='intrnl.unset.id.GetParameterNames1596181340201.29486396'
+2020-07-31 14:42:20:203[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.r@1abe9f6] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:42:20:204[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterNames
+2020-07-31 14:42:20:207[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:42:20:865[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:fzrm7oh6o9ps@5820080
+2020-07-31 14:42:20:885[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterNamesResponse
+2020-07-31 14:42:20:886[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.s@1559094
+2020-07-31 14:42:20:886[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterNames1596181340201.29486396
+2020-07-31 14:42:20:887[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:42:20:888[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:42:20:889[DEBUG][T:Thread-33][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterNames1596181340201.29486396 req=x.acs.a.s@1f0ac5f
+2020-07-31 14:42:20:889[ INFO][T:Thread-33][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterNames1596181340201.29486396' OR JMSCorrelationID='intrnl.unset.id.GetParameterNames1596181340201.29486396'] close
+2020-07-31 14:42:20:890[ INFO][T:Thread-33][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterNamesResponse
+2020-07-31 14:42:20:892[DEBUG][T:Thread-33][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 14:42:20:893[ INFO][T:Thread-33][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[null] 
+2020-07-31 14:42:20:893[ INFO][T:Thread-33][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetRPCMethods1596181340892.357590' OR JMSCorrelationID='intrnl.unset.id.GetRPCMethods1596181340892.357590'
+2020-07-31 14:42:20:893[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.x@1657737] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:42:20:893[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetRPCMethods
+2020-07-31 14:42:20:897[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 14:42:20:898[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:fzrm7oh6o9ps@5820080
+2020-07-31 14:42:20:901[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetRPCMethodsResponse
+2020-07-31 14:42:20:902[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.y@f83155
+2020-07-31 14:42:20:902[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetRPCMethods1596181340892.357590
+2020-07-31 14:42:20:903[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 14:42:20:903[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:42:20:903[DEBUG][T:Thread-33][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetRPCMethods1596181340892.357590 req=x.acs.a.y@c4c253
+2020-07-31 14:42:20:903[ INFO][T:Thread-33][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetRPCMethods1596181340892.357590' OR JMSCorrelationID='intrnl.unset.id.GetRPCMethods1596181340892.357590'] close
+2020-07-31 14:42:20:903[ INFO][T:Thread-33][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetRPCMethodsResponse
+2020-07-31 14:42:25:903[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 14:42:25:903[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 14:42:25:904[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 15:12:20:047[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:12r9hfvcafabv@25175277
+2020-07-31 15:12:20:074[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 15:12:20:074[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		2 PERIODIC: 
+	Params:
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.DeviceInfo.UpTime: 860623
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 15:12:20:079[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=null, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 15:12:20:084[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 15:12:20:085[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 15:12:20:087[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:12r9hfvcafabv@25175277
+2020-07-31 15:12:20:088[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 15:12:20:088[ INFO][T:Thread-34][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 15:12:20:088[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 15:12:20:094[ INFO][T:Thread-34][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 15:12:20:094[ INFO][T:Thread-34][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 15:12:20:095[ INFO][T:Thread-34][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 15:12:20:095[ INFO][T:Thread-34][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 15:12:20:096[ INFO][T:Thread-34][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 15:12:20:096[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 15:12:20:096[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 15:12:20:096[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 15:12:20:096[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 15:12:20:096[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 15:12:20:096[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 15:12:20:096[DEBUG][T:Thread-34][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 15:12:20:097[ INFO][T:Thread-34][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[null] 
+2020-07-31 15:12:20:098[ INFO][T:Thread-34][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596183140096.14286433' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596183140096.14286433'
+2020-07-31 15:12:20:098[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@1bd7f3f] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 15:12:20:099[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 15:12:20:103[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 15:12:20:204[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:12r9hfvcafabv@25175277
+2020-07-31 15:12:20:212[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 15:12:20:213[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 15:12:20:213[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596183140096.14286433
+2020-07-31 15:12:20:214[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 15:12:20:214[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 15:12:20:215[DEBUG][T:Thread-34][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596183140096.14286433 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 15:12:20:215[ INFO][T:Thread-34][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596183140096.14286433' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596183140096.14286433'] close
+2020-07-31 15:12:20:215[ INFO][T:Thread-34][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 15:12:20:215[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 15:12:20:216[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 15:12:20:216[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 15:12:20:216[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 15:12:20:216[DEBUG][T:Thread-34][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 15:12:25:215[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 15:12:25:215[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 15:12:25:218[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 15:42:20:059[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1n6ionjejucd0@11382603
+2020-07-31 15:42:20:070[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 15:42:20:071[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		2 PERIODIC: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.DeviceInfo.UpTime: 860623
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 15:42:20:078[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=null, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 15:42:20:106[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 15:42:20:107[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 15:42:20:110[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1n6ionjejucd0@11382603
+2020-07-31 15:42:20:110[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 15:42:20:111[ INFO][T:Thread-35][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 15:42:20:111[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 15:42:20:120[ INFO][T:Thread-35][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 15:42:20:121[ INFO][T:Thread-35][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 15:42:20:122[ INFO][T:Thread-35][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 15:42:20:122[ INFO][T:Thread-35][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 15:42:20:122[ INFO][T:Thread-35][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 15:42:20:122[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 15:42:20:122[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 15:42:20:122[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 15:42:20:122[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 15:42:20:122[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 15:42:20:123[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 15:42:20:123[DEBUG][T:Thread-35][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 15:42:20:124[ INFO][T:Thread-35][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[null] 
+2020-07-31 15:42:20:124[ INFO][T:Thread-35][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596184940123.1718037' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596184940123.1718037'
+2020-07-31 15:42:20:125[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@129443e] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 15:42:20:125[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 15:42:20:130[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 15:42:20:256[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1n6ionjejucd0@11382603
+2020-07-31 15:42:20:260[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 15:42:20:261[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 15:42:20:261[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596184940123.1718037
+2020-07-31 15:42:20:262[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 15:42:20:262[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 15:42:20:263[DEBUG][T:Thread-35][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596184940123.1718037 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 15:42:20:263[ INFO][T:Thread-35][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596184940123.1718037' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596184940123.1718037'] close
+2020-07-31 15:42:20:263[ INFO][T:Thread-35][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 15:42:20:263[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 15:42:20:263[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 15:42:20:263[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 15:42:20:263[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 15:42:20:263[DEBUG][T:Thread-35][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 15:42:25:262[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 15:42:25:262[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 15:42:25:263[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:31:38:185[ INFO][T:8345839@qtp-24478976-7][x.acs.web.login.a.onSubmit(?)]: login clicked
+2020-07-31 16:32:18:263[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:32:18:273[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[null] 
+2020-07-31 16:32:18:274[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596187938262.24197190' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596187938262.24197190'
+2020-07-31 16:32:45:063[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:36wvegfuuvyo@27252169
+2020-07-31 16:32:45:078[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:32:45:079[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Inform:
+	oui: : null
+	sn: : null
+	Manufacturer: : null
+	Events:
+		0 BOOTSTRAP: 
+	Params:
+		Device.DeviceInfo.SoftwareVersion: 
+		Device.DeviceInfo.SerialNumber: 
+		Device.DeviceInfo.HardwareVersion: 
+		Device.ManagementServer.ConnectionRequestURL: 
+		Device.DeviceInfo.UpTime: 
+		Device.DeviceInfo.Manufacturer: 
+		Device.DeviceInfo.ProvisioningCode: 
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: 
+		Device.DeviceInfo.3GPPSpecVersion: 
+		Device.DeviceInfo.FirstUseDate: 
+		Device.DeviceInfo.ModelName: 
+		Device.DeviceInfo.ManufacturerOUI: 
+		Device.DeviceInfo.AdditionalSoftwareVersion: 
+		Device.DeviceInfo.AdditionalHardwareVersion: 
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: 
+
+2020-07-31 16:32:45:090[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: oui=null, sn=null, URL=, hw=, sw=, cfg=null, ProvisioningCode=
+2020-07-31 16:32:45:102[DEBUG][T:20348456@qtp-24478976-3][x.acs.dao.HostsDAO.create(?)]: create new HostsBean hwid[2] serialno[null] url[]
+2020-07-31 16:32:45:108[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:32:45:110[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:32:45:112[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:36wvegfuuvyo@27252169
+2020-07-31 16:32:45:115[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:32:45:115[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: x.acs.a.x@bf8a5f
+2020-07-31 16:32:45:118[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:32:45:119[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:32:45:120[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:36wvegfuuvyo@27252169
+2020-07-31 16:32:45:121[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:32:45:121[ INFO][T:Thread-36][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:32:45:121[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='2' AND SN='null']
+2020-07-31 16:32:45:128[ INFO][T:Thread-36][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:32:45:129[ INFO][T:Thread-36][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:32:45:131[ INFO][T:Thread-36][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:32:45:131[ INFO][T:Thread-36][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:32:45:132[DEBUG][T:Thread-36][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:32:45:132[DEBUG][T:Thread-36][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:32:45:132[DEBUG][T:Thread-36][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:32:45:132[DEBUG][T:Thread-36][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:32:45:132[DEBUG][T:Thread-36][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:32:45:132[DEBUG][T:Thread-36][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:32:45:133[DEBUG][T:Thread-36][x.acs.b.c.a(?)]: send msg HWID[2] SN[null]
+2020-07-31 16:32:45:133[ INFO][T:Thread-36][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[] 
+2020-07-31 16:32:45:133[ INFO][T:Thread-36][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596187965132.6005775' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596187965132.6005775'
+2020-07-31 16:32:48:277[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596187938262.24197190' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596187938262.24197190'] close
+2020-07-31 16:32:48:278[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=null
+2020-07-31 16:32:50:123[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='2' AND SN='null']
+2020-07-31 16:32:50:123[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:32:50:123[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:32:50:803[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:32:50:803[ INFO][T:24737685@qtp-24478976-4][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[null] 
+2020-07-31 16:32:50:804[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596187970803.22440347' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596187970803.22440347'
+2020-07-31 16:33:00:538[ INFO][T:8345839@qtp-24478976-7][x.acs.web.login.a.onSubmit(?)]: login clicked
+2020-07-31 16:33:20:805[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596187970803.22440347' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596187970803.22440347'] close
+2020-07-31 16:33:20:806[ INFO][T:24737685@qtp-24478976-4][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=null
+2020-07-31 16:34:24:345[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:y6t3vh6jqm15@10286808
+2020-07-31 16:34:24:414[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:34:24:415[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		0 BOOTSTRAP: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869147
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:34:24:420[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:34:24:473[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:34:24:476[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:34:24:477[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:y6t3vh6jqm15@10286808
+2020-07-31 16:34:24:481[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:34:24:481[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: x.acs.a.x@d63793
+2020-07-31 16:34:24:485[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:34:24:486[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:34:24:489[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:y6t3vh6jqm15@10286808
+2020-07-31 16:34:24:490[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:34:24:491[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:34:24:493[ INFO][T:Thread-37][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:34:24:494[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@c6e438] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:34:24:494[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:34:24:501[ INFO][T:Thread-37][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:34:24:502[ INFO][T:Thread-37][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:34:24:503[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:34:24:505[ INFO][T:Thread-37][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:34:24:505[ INFO][T:Thread-37][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:34:24:505[ INFO][T:Thread-37][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:34:24:505[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:34:24:505[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:34:24:506[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:34:24:506[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:34:24:506[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:34:24:506[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:34:24:506[DEBUG][T:Thread-37][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:34:24:509[ INFO][T:Thread-37][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:34:24:510[ INFO][T:Thread-37][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188064506.12425886' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188064506.12425886'
+2020-07-31 16:34:24:552[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:y6t3vh6jqm15@10286808
+2020-07-31 16:34:24:684[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:34:24:684[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.DeviceInfo.UpTime=869148
+
+2020-07-31 16:34:24:684[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596187938262.24197190
+2020-07-31 16:34:24:686[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:34:24:686[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:34:24:687[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@147d687] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:34:24:687[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:34:24:691[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:34:24:745[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:y6t3vh6jqm15@10286808
+2020-07-31 16:34:24:749[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:34:24:749[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Device.DeviceInfo.UpTime=869148
+
+2020-07-31 16:34:24:750[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596187970803.22440347
+2020-07-31 16:34:24:750[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:34:24:751[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:34:24:751[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@ef3bd9] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:34:24:751[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:34:24:756[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:34:24:847[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:y6t3vh6jqm15@10286808
+2020-07-31 16:34:24:851[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:34:24:852[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:34:24:852[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188064506.12425886
+2020-07-31 16:34:24:852[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:34:24:853[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:34:24:853[DEBUG][T:Thread-37][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188064506.12425886 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:34:24:853[ INFO][T:Thread-37][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188064506.12425886' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188064506.12425886'] close
+2020-07-31 16:34:24:853[ INFO][T:Thread-37][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:34:24:854[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:34:24:854[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:34:24:854[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:34:24:854[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:34:24:854[DEBUG][T:Thread-37][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:34:29:854[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:34:29:854[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:34:29:855[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:35:45:163[ INFO][T:Thread-36][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596187965132.6005775' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596187965132.6005775'] close
+2020-07-31 16:35:45:163[ INFO][T:Thread-36][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=null
+2020-07-31 16:35:45:164[DEBUG][T:Thread-36][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:35:45:245[ERROR][T:Thread-36][x.acs.servlet.e.run(?)]: 
+java.lang.NullPointerException
+	at x.acs.servlet.e.a(Unknown Source)
+	at x.acs.servlet.e.SyncParameterValues(Unknown Source)
+	at x.acs.servlet.e.e(Unknown Source)
+	at x.acs.servlet.e.run(Unknown Source)
+2020-07-31 16:36:03:362[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:36:03:364[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:36:03:411[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:36:03:412[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.FactoryReset1596188163361.11830351' OR JMSCorrelationID='intrnl.unset.id.FactoryReset1596188163361.11830351'
+2020-07-31 16:36:33:414[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.FactoryReset1596188163361.11830351' OR JMSCorrelationID='intrnl.unset.id.FactoryReset1596188163361.11830351'] close
+2020-07-31 16:36:33:415[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=null
+2020-07-31 16:36:48:799[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:36:48:802[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:36:48:805[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:36:48:806[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188208799.124267' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188208799.124267'
+2020-07-31 16:37:18:809[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188208799.124267' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188208799.124267'] close
+2020-07-31 16:37:18:809[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=null
+2020-07-31 16:37:46:677[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pwomefbm3yot@11845807
+2020-07-31 16:37:46:683[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:37:46:683[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869349
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:37:46:687[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:37:46:690[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:37:46:691[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:46:692[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pwomefbm3yot@11845807
+2020-07-31 16:37:46:695[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:37:46:695[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.x@1ce3d46
+2020-07-31 16:37:46:698[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:37:46:699[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:46:701[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pwomefbm3yot@11845807
+2020-07-31 16:37:46:702[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:37:46:702[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:46:702[ INFO][T:Thread-38][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:37:46:703[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.g@701d46] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:46:703[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: FactoryReset
+2020-07-31 16:37:46:709[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:46:711[ INFO][T:Thread-38][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:37:46:712[ INFO][T:Thread-38][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:37:46:713[ INFO][T:Thread-38][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:37:46:713[ INFO][T:Thread-38][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:37:46:713[ INFO][T:Thread-38][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:37:46:713[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:37:46:714[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:37:46:714[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:37:46:714[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:37:46:714[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:37:46:714[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:37:46:714[DEBUG][T:Thread-38][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:37:46:715[ INFO][T:Thread-38][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:37:46:715[ INFO][T:Thread-38][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188266714.4013137' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188266714.4013137'
+2020-07-31 16:37:46:747[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pwomefbm3yot@11845807
+2020-07-31 16:37:46:751[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is FactoryResetResponse
+2020-07-31 16:37:46:751[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.h@669878
+2020-07-31 16:37:46:751[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.FactoryReset1596188163361.11830351
+2020-07-31 16:37:46:752[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:37:46:752[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:46:753[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@25295] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:46:753[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:37:46:758[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:48:094[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pwomefbm3yot@11845807
+2020-07-31 16:37:48:100[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:37:48:101[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.DeviceInfo.FirstUseDate=2020-07-21T07:08:36
+Device.DeviceInfo.EU.1.RouteIndex=1
+Device.DeviceInfo.EU.1.HardwareVersion=version1.0.1
+Device.DeviceInfo.UpTime=869351
+Device.DeviceInfo.HardwareVersion=1.0
+Device.DeviceInfo.AdditionalHardwareVersion=1.0
+Device.DeviceInfo.ManufacturerOUI=080699
+Device.DeviceInfo.ModelName=06202003\.f3600
+Device.DeviceInfo.Manufacturer=CertusNet
+Device.DeviceInfo.3GPPSpecVersion=1.00
+Device.DeviceInfo.EU.1.SoftwareVersion=version1.0.1
+Device.DeviceInfo.EU.1.ModelName=FlexORAN-EU2600
+Device.DeviceInfo.SoftwareVersion=flexoran-bbu-4.1.2600-2020-v1.0.12
+Device.DeviceInfo.AdditionalSoftwareVersion=FLEXBBU.3600
+Device.DeviceInfo.ProvisioningCode=080699
+Device.DeviceInfo.SerialNumber=525400CAB1D8
+Device.DeviceInfo.EU.1.Reboot=false
+Device.DeviceInfo.EU.1.Status=0
+Device.DeviceInfo.HardwarePlatform=DELL740
+Device.DeviceInfo.EU.1.ULCRCSum=
+Device.DeviceInfo.EU.1.SerialNumber=0xffff123
+Device.DeviceInfo.EU.1.DLCRCSum=
+Device.DeviceInfo.ProductClass=FlexORAN
+
+2020-07-31 16:37:48:101[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188208799.124267
+2020-07-31 16:37:48:104[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:37:48:105[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:48:105[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@8f4acd] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:48:106[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:37:48:115[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:48:209[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pwomefbm3yot@11845807
+2020-07-31 16:37:48:217[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:37:48:217[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:37:48:218[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188266714.4013137
+2020-07-31 16:37:48:218[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:37:48:218[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:48:219[DEBUG][T:Thread-38][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188266714.4013137 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:37:48:220[ INFO][T:Thread-38][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188266714.4013137' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188266714.4013137'] close
+2020-07-31 16:37:48:220[ INFO][T:Thread-38][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:37:48:220[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:37:48:220[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:37:48:220[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:37:48:221[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:37:48:221[DEBUG][T:Thread-38][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:37:53:219[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:53:219[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:37:53:220[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:58:978[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ie2ov304ebfl@24815676
+2020-07-31 16:37:58:984[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:37:58:984[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869362
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:37:59:004[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:37:59:007[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:37:59:010[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:59:011[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ie2ov304ebfl@24815676
+2020-07-31 16:37:59:015[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:37:59:015[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.x@16a89f9
+2020-07-31 16:37:59:019[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:37:59:020[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:59:021[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ie2ov304ebfl@24815676
+2020-07-31 16:37:59:022[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:37:59:023[ INFO][T:Thread-39][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:37:59:023[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:59:030[ INFO][T:Thread-39][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:37:59:031[ INFO][T:Thread-39][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:37:59:032[ INFO][T:Thread-39][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:37:59:032[ INFO][T:Thread-39][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:37:59:032[ INFO][T:Thread-39][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:37:59:032[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:37:59:032[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:37:59:032[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:37:59:033[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:37:59:033[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:37:59:033[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:37:59:033[DEBUG][T:Thread-39][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:37:59:034[ INFO][T:Thread-39][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:37:59:034[ INFO][T:Thread-39][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188279033.15874890' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188279033.15874890'
+2020-07-31 16:37:59:035[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@31572f] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:59:035[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:37:59:039[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:37:59:116[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1ie2ov304ebfl@24815676
+2020-07-31 16:37:59:120[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:37:59:121[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:37:59:121[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188279033.15874890
+2020-07-31 16:37:59:121[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:37:59:122[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:37:59:122[DEBUG][T:Thread-39][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188279033.15874890 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:37:59:123[ INFO][T:Thread-39][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188279033.15874890' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188279033.15874890'] close
+2020-07-31 16:37:59:123[ INFO][T:Thread-39][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:37:59:124[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:37:59:124[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:37:59:124[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:37:59:124[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:37:59:124[DEBUG][T:Thread-39][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:38:04:122[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:38:04:122[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:38:04:123[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:38:26:886[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:38:26:888[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:38:26:892[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:38:26:892[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188306886.2072100' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188306886.2072100'
+2020-07-31 16:38:55:739[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1428fh4su75z2@11050957
+2020-07-31 16:38:55:747[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:38:55:747[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869418
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:35
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:38:55:750[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:38:55:753[DEBUG][T:24737685@qtp-24478976-4][x.acs.dao.HostsDAO.create(?)]: create new HostsBean hwid[1] serialno[525400CAB1D8] url[http://172.21.6.125:7547/]
+2020-07-31 16:38:55:756[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:38:55:757[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:38:55:758[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1428fh4su75z2@11050957
+2020-07-31 16:38:55:763[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:38:55:764[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: x.acs.a.x@1dfe852
+2020-07-31 16:38:55:767[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:38:55:767[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:38:55:768[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1428fh4su75z2@11050957
+2020-07-31 16:38:55:769[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:38:55:769[ INFO][T:Thread-40][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:38:55:769[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:38:55:770[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@14857c3] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:38:55:770[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:38:55:774[ INFO][T:Thread-40][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:38:55:775[ INFO][T:Thread-40][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:38:55:775[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:38:55:781[ INFO][T:Thread-40][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:38:55:782[ INFO][T:Thread-40][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:38:55:782[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:38:55:782[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:38:55:782[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:38:55:782[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:38:55:783[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:38:55:783[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:38:55:783[DEBUG][T:Thread-40][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:38:55:784[ INFO][T:Thread-40][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:38:55:784[ INFO][T:Thread-40][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188335783.15127867' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188335783.15127867'
+2020-07-31 16:38:55:843[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1428fh4su75z2@11050957
+2020-07-31 16:38:55:852[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is Fault
+2020-07-31 16:38:55:852[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:38:55:852[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188306886.2072100
+2020-07-31 16:38:55:853[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:38:55:853[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:38:55:854[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188306886.2072100 req=FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:38:55:854[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188306886.2072100' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188306886.2072100'] close
+2020-07-31 16:38:55:854[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@178a90e] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:38:55:854[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:38:55:859[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:38:55:947[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1428fh4su75z2@11050957
+2020-07-31 16:38:55:955[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:38:55:955[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:38:55:956[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188335783.15127867
+2020-07-31 16:38:55:957[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:38:55:957[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:38:55:960[DEBUG][T:Thread-40][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188335783.15127867 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:38:55:960[ INFO][T:Thread-40][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188335783.15127867' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188335783.15127867'] close
+2020-07-31 16:38:55:961[ INFO][T:Thread-40][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:38:55:961[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:38:55:961[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:38:55:962[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:38:55:962[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:38:55:962[DEBUG][T:Thread-40][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:39:00:959[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:39:00:959[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:39:00:960[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:39:01:982[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:5mzo7ap0kjaa@24661327
+2020-07-31 16:39:01:994[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:39:01:995[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		4 VALUE CHANGE: 
+	Params:
+		Device.FaultMgmt.ExpeditedEvent.1.OUI: 080699
+		Device.FaultMgmt.ExpeditedEvent.1.AdditionalInformation: Timeout and NOT collect the full ready messages!
+		Device.FaultMgmt.ExpeditedEvent.1.EventTime: 2020-07-31T16:39:01+08:00
+		Device.FaultMgmt.ExpeditedEvent.1.SpecificProblem: The Phy CU DU OAM process maby carsh or block when running
+		Device.FaultMgmt.ExpeditedEvent.1.AdditionalText: 
+		Device.FaultMgmt.ExpeditedEvent.1.ManagedObjectInstance: 
+		Device.FaultMgmt.ExpeditedEvent.1.AlarmType: ExpeditedEvent
+		Device.FaultMgmt.ExpeditedEvent.1.PerceivedSeverity: Critical
+		Device.FaultMgmt.ExpeditedEvent.1.EventType: Environmental Alarm
+		Device.FaultMgmt.ExpeditedEvent.1.AlarmIdentifier: 1032
+		Device.FaultMgmt.ExpeditedEvent.1.SerialNumber: 525400CAB1D8
+		Device.FaultMgmt.ExpeditedEvent.1.NotificationType: NewAlarm
+		Device.FaultMgmt.ExpeditedEvent.1.ProbableCause: Start timeout and NOT collect the full ready messages
+
+2020-07-31 16:39:01:997[ERROR][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: No hardware version in Inform
+2020-07-31 16:39:18:813[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:39:18:817[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:39:18:817[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188358813.21737063' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188358813.21737063'
+2020-07-31 16:39:48:818[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188358813.21737063' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188358813.21737063'] close
+2020-07-31 16:39:48:820[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=null
+2020-07-31 16:39:48:863[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:39:48:868[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:39:48:873[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:39:48:874[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188388863.12935801' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188388863.12935801'
+2020-07-31 16:40:18:879[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188388863.12935801' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188388863.12935801'] close
+2020-07-31 16:40:18:879[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=null
+2020-07-31 16:40:27:829[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:jylapcoz682f@2628077
+2020-07-31 16:40:27:834[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:40:27:835[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869511
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:40:27:839[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:40:27:843[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:40:27:844[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:40:27:848[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:jylapcoz682f@2628077
+2020-07-31 16:40:27:851[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:40:27:851[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: x.acs.a.x@3ec598
+2020-07-31 16:40:27:855[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:40:27:858[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:40:27:862[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:jylapcoz682f@2628077
+2020-07-31 16:40:27:864[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:40:27:864[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:40:27:864[ INFO][T:Thread-41][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:40:27:865[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@62d895] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:40:27:865[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:40:27:870[ INFO][T:Thread-41][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:40:27:870[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:40:27:871[ INFO][T:Thread-41][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:40:27:872[ INFO][T:Thread-41][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:40:27:873[ INFO][T:Thread-41][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:40:27:873[ INFO][T:Thread-41][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:40:27:873[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:40:27:873[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:40:27:873[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:40:27:873[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:40:27:873[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:40:27:874[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:40:27:875[DEBUG][T:Thread-41][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:40:27:876[ INFO][T:Thread-41][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:40:27:876[ INFO][T:Thread-41][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188427875.5342922' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188427875.5342922'
+2020-07-31 16:40:27:918[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:jylapcoz682f@2628077
+2020-07-31 16:40:27:923[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is Fault
+2020-07-31 16:40:27:923[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:40:27:923[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188358813.21737063
+2020-07-31 16:40:27:924[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:40:27:924[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:40:27:926[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@85afaa] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:40:27:926[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:40:27:930[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:40:27:979[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:jylapcoz682f@2628077
+2020-07-31 16:40:27:984[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is Fault
+2020-07-31 16:40:27:984[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:40:27:984[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188388863.12935801
+2020-07-31 16:40:27:985[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:40:27:986[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:40:27:986[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@c51851] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:40:27:986[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:40:27:992[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:40:28:095[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:jylapcoz682f@2628077
+2020-07-31 16:40:28:099[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:40:28:099[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:40:28:099[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188427875.5342922
+2020-07-31 16:40:28:100[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:40:28:100[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:40:28:100[DEBUG][T:Thread-41][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188427875.5342922 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:40:28:101[ INFO][T:Thread-41][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188427875.5342922' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188427875.5342922'] close
+2020-07-31 16:40:28:101[ INFO][T:Thread-41][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:40:28:101[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:40:28:101[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:40:28:101[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:40:28:101[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:40:28:101[DEBUG][T:Thread-41][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:40:33:100[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:40:33:100[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:40:33:100[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:01:239[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:17j1712p9iqp8@27885572
+2020-07-31 16:41:01:243[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:41:01:244[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869544
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:41:01:248[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:41:01:251[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:41:01:253[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:01:254[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:17j1712p9iqp8@27885572
+2020-07-31 16:41:01:259[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:41:01:259[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: x.acs.a.x@140b874
+2020-07-31 16:41:01:263[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:41:01:264[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:01:273[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:17j1712p9iqp8@27885572
+2020-07-31 16:41:01:274[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:41:01:274[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:01:274[ INFO][T:Thread-42][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:41:01:280[ INFO][T:Thread-42][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:41:01:280[ INFO][T:Thread-42][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:41:01:281[ INFO][T:Thread-42][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:41:01:282[ INFO][T:Thread-42][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:41:01:282[ INFO][T:Thread-42][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:41:01:282[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:41:01:282[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:41:01:282[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:41:01:283[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:41:01:283[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:41:01:283[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:41:01:284[DEBUG][T:Thread-42][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:41:01:285[ INFO][T:Thread-42][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:41:01:285[ INFO][T:Thread-42][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188461283.12632652' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188461283.12632652'
+2020-07-31 16:41:01:286[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@e1093d] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:01:286[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:41:01:290[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:01:390[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:17j1712p9iqp8@27885572
+2020-07-31 16:41:01:393[ INFO][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:41:01:394[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:41:01:394[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188461283.12632652
+2020-07-31 16:41:01:395[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:41:01:395[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:01:395[DEBUG][T:Thread-42][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188461283.12632652 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:41:01:396[ INFO][T:Thread-42][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188461283.12632652' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188461283.12632652'] close
+2020-07-31 16:41:01:396[ INFO][T:Thread-42][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:41:01:396[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:41:01:396[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:41:01:396[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:41:01:396[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:41:01:396[DEBUG][T:Thread-42][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:41:06:395[DEBUG][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:06:395[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:41:06:396[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:52:491[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:41:52:493[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:41:52:496[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:41:52:497[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188512491.6351527' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188512491.6351527'
+2020-07-31 16:41:59:223[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:9r9qb8swjd9z@9078927
+2020-07-31 16:41:59:228[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:41:59:228[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869602
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:41:59:232[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:41:59:244[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:41:59:245[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:59:248[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:9r9qb8swjd9z@9078927
+2020-07-31 16:41:59:253[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:41:59:253[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: x.acs.a.x@832351
+2020-07-31 16:41:59:256[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:41:59:256[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:59:257[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:9r9qb8swjd9z@9078927
+2020-07-31 16:41:59:259[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:41:59:259[ INFO][T:Thread-43][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:41:59:259[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:59:260[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@14f6802] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:59:260[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:41:59:264[ INFO][T:Thread-43][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:41:59:264[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:59:264[ INFO][T:Thread-43][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:41:59:265[ INFO][T:Thread-43][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:41:59:266[ INFO][T:Thread-43][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:41:59:266[ INFO][T:Thread-43][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:41:59:266[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:41:59:267[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:41:59:267[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:41:59:267[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:41:59:267[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:41:59:267[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:41:59:268[DEBUG][T:Thread-43][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:41:59:268[ INFO][T:Thread-43][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:41:59:268[ INFO][T:Thread-43][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188519267.12190151' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188519267.12190151'
+2020-07-31 16:41:59:304[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:9r9qb8swjd9z@9078927
+2020-07-31 16:41:59:308[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:41:59:309[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.DeviceInfo.SerialNumber=525400CAB1D8
+
+2020-07-31 16:41:59:309[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188512491.6351527
+2020-07-31 16:41:59:310[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:41:59:310[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:59:310[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188512491.6351527 req=Device.DeviceInfo.SerialNumber=525400CAB1D8
+
+2020-07-31 16:41:59:311[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188512491.6351527' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188512491.6351527'] close
+2020-07-31 16:41:59:311[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:41:59:310[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@28b0d6] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:59:311[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:41:59:317[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:41:59:379[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:9r9qb8swjd9z@9078927
+2020-07-31 16:41:59:383[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:41:59:383[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:41:59:384[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188519267.12190151
+2020-07-31 16:41:59:384[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:41:59:385[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:41:59:386[DEBUG][T:Thread-43][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188519267.12190151 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:41:59:387[ INFO][T:Thread-43][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188519267.12190151' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188519267.12190151'] close
+2020-07-31 16:41:59:387[ INFO][T:Thread-43][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:41:59:387[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:41:59:387[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:41:59:387[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:41:59:387[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:41:59:387[DEBUG][T:Thread-43][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:42:04:386[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:42:04:386[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:42:04:387[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:42:32:685[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:42:32:686[ INFO][T:24737685@qtp-24478976-4][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:42:32:689[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:42:32:689[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188552685.28304204' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188552685.28304204'
+2020-07-31 16:43:02:691[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188552685.28304204' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188552685.28304204'] close
+2020-07-31 16:43:02:692[ INFO][T:24737685@qtp-24478976-4][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=null
+2020-07-31 16:43:08:314[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pdujnnqsyn48@26273731
+2020-07-31 16:43:08:318[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:43:08:319[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869671
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:43:08:323[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:43:08:326[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:43:08:326[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:43:08:335[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pdujnnqsyn48@26273731
+2020-07-31 16:43:08:339[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:43:08:339[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: x.acs.a.x@181df6
+2020-07-31 16:43:08:343[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:43:08:343[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:43:08:345[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pdujnnqsyn48@26273731
+2020-07-31 16:43:08:346[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:43:08:346[ INFO][T:Thread-44][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:43:08:346[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:43:08:347[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@167109c] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:43:08:347[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:43:08:350[ INFO][T:Thread-44][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:43:08:350[ INFO][T:Thread-44][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:43:08:351[ INFO][T:Thread-44][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:43:08:351[ INFO][T:Thread-44][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:43:08:351[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:43:08:351[ INFO][T:Thread-44][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:43:08:352[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:43:08:352[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:43:08:352[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:43:08:352[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:43:08:352[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:43:08:352[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:43:08:353[DEBUG][T:Thread-44][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:43:08:355[ INFO][T:Thread-44][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:43:08:356[ INFO][T:Thread-44][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188588353.8719028' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188588353.8719028'
+2020-07-31 16:43:08:390[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pdujnnqsyn48@26273731
+2020-07-31 16:43:08:393[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:43:08:393[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.DeviceInfo.ManufacturerOUI=080699
+
+2020-07-31 16:43:08:394[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188552685.28304204
+2020-07-31 16:43:08:394[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:43:08:394[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:43:08:395[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@106a785] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:43:08:395[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:43:08:398[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:43:08:477[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:pdujnnqsyn48@26273731
+2020-07-31 16:43:08:482[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:43:08:482[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:43:08:482[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188588353.8719028
+2020-07-31 16:43:08:482[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:43:08:483[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:43:08:483[DEBUG][T:Thread-44][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188588353.8719028 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:43:08:483[ INFO][T:Thread-44][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188588353.8719028' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188588353.8719028'] close
+2020-07-31 16:43:08:483[ INFO][T:Thread-44][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:43:08:483[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:43:08:484[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:43:08:484[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:43:08:484[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:43:08:484[DEBUG][T:Thread-44][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:43:13:484[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:43:13:485[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:43:13:487[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:44:35:765[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:44:35:767[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:44:35:773[ INFO][T:20348456@qtp-24478976-3][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:44:35:774[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188675765.26667064' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188675765.26667064'
+2020-07-31 16:44:51:317[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:44:51:319[ INFO][T:24737685@qtp-24478976-4][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:44:51:323[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:44:51:323[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188691317.19956272' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188691317.19956272'
+2020-07-31 16:44:56:756[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1a4yf1soh6gp3@7018359
+2020-07-31 16:44:56:761[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:44:56:761[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869779
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:44:56:765[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:44:56:768[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:44:56:768[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:44:56:769[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1a4yf1soh6gp3@7018359
+2020-07-31 16:44:56:774[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:44:56:774[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.x@8fed97
+2020-07-31 16:44:56:777[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:44:56:778[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:44:56:779[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1a4yf1soh6gp3@7018359
+2020-07-31 16:44:56:780[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:44:56:781[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:44:56:781[ INFO][T:Thread-45][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:44:56:781[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@e444d7] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:44:56:782[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:44:56:786[ INFO][T:Thread-45][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:44:56:787[ INFO][T:Thread-45][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:44:56:848[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:44:56:849[ INFO][T:Thread-45][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:44:56:849[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1a4yf1soh6gp3@7018359
+2020-07-31 16:44:56:849[ INFO][T:Thread-45][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:44:56:849[ INFO][T:Thread-45][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:44:56:849[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:44:56:850[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:44:56:850[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:44:56:850[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:44:56:850[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:44:56:850[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:44:56:855[DEBUG][T:Thread-45][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:44:56:855[ INFO][T:Thread-45][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:44:56:856[ INFO][T:Thread-45][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188696854.28700401' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188696854.28700401'
+2020-07-31 16:44:56:861[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:44:56:861[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.DeviceInfo.ManufacturerOUI=080699
+
+2020-07-31 16:44:56:861[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188675765.26667064
+2020-07-31 16:44:56:862[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:44:56:862[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:44:56:862[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@1351815] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:44:56:862[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:44:56:862[DEBUG][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188675765.26667064 req=Device.DeviceInfo.ManufacturerOUI=080699
+
+2020-07-31 16:44:56:863[ INFO][T:20348456@qtp-24478976-3][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188675765.26667064' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188675765.26667064'] close
+2020-07-31 16:44:56:863[ INFO][T:20348456@qtp-24478976-3][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:44:56:867[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:44:56:916[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1a4yf1soh6gp3@7018359
+2020-07-31 16:44:56:920[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Fault
+2020-07-31 16:44:56:920[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:44:56:921[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188691317.19956272
+2020-07-31 16:44:56:922[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:44:56:922[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:44:56:922[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@8d0924] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:44:56:923[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188691317.19956272 req=FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:44:56:923[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:44:56:923[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188691317.19956272' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188691317.19956272'] close
+2020-07-31 16:44:56:933[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:44:57:004[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:1a4yf1soh6gp3@7018359
+2020-07-31 16:44:57:007[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:44:57:007[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:44:57:008[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188696854.28700401
+2020-07-31 16:44:57:008[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:44:57:008[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:44:57:009[DEBUG][T:Thread-45][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188696854.28700401 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:44:57:009[ INFO][T:Thread-45][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188696854.28700401' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188696854.28700401'] close
+2020-07-31 16:44:57:009[ INFO][T:Thread-45][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:44:57:009[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:44:57:009[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:44:57:010[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:44:57:010[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:44:57:010[DEBUG][T:Thread-45][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:45:02:009[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:45:02:009[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:45:02:010[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:45:04:636[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:45:04:636[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:45:04:653[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:45:04:653[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188704636.20259723' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188704636.20259723'
+2020-07-31 16:45:10:936[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:3nj5bewtkn5w@3800672
+2020-07-31 16:45:10:941[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:45:10:941[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869794
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:45:10:945[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:45:10:948[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:45:10:949[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:45:10:950[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:3nj5bewtkn5w@3800672
+2020-07-31 16:45:10:953[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:45:10:953[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: x.acs.a.x@1255931
+2020-07-31 16:45:10:957[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:45:10:958[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:45:10:962[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:3nj5bewtkn5w@3800672
+2020-07-31 16:45:10:963[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:45:10:964[ INFO][T:Thread-46][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:45:10:964[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:45:10:964[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@a49d93] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:45:10:965[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:45:10:969[ INFO][T:Thread-46][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:45:10:970[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:45:10:970[ INFO][T:Thread-46][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:45:10:971[ INFO][T:Thread-46][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:45:10:971[ INFO][T:Thread-46][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:45:10:971[ INFO][T:Thread-46][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:45:10:971[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:45:10:971[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:45:10:971[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:45:10:971[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:45:10:971[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:45:10:972[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:45:10:972[DEBUG][T:Thread-46][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:45:10:972[ INFO][T:Thread-46][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:45:10:972[ INFO][T:Thread-46][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188710972.13654010' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188710972.13654010'
+2020-07-31 16:45:11:027[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:3nj5bewtkn5w@3800672
+2020-07-31 16:45:11:031[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:45:11:032[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.DeviceInfo.HardwareVersion=1.0
+
+2020-07-31 16:45:11:032[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188704636.20259723
+2020-07-31 16:45:11:032[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:45:11:033[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:45:11:033[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@13d693c] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:45:11:033[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:45:11:033[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188704636.20259723 req=Device.DeviceInfo.HardwareVersion=1.0
+
+2020-07-31 16:45:11:034[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188704636.20259723' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188704636.20259723'] close
+2020-07-31 16:45:11:034[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:45:11:038[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:45:11:143[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:3nj5bewtkn5w@3800672
+2020-07-31 16:45:11:147[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:45:11:147[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:45:11:148[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188710972.13654010
+2020-07-31 16:45:11:148[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:45:11:149[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:45:11:149[DEBUG][T:Thread-46][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188710972.13654010 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:45:11:149[ INFO][T:Thread-46][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188710972.13654010' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188710972.13654010'] close
+2020-07-31 16:45:11:150[ INFO][T:Thread-46][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:45:11:150[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:45:11:150[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:45:11:150[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:45:11:150[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:45:11:150[DEBUG][T:Thread-46][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:45:16:149[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:45:16:149[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:45:16:149[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:03:492[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:46:03:493[ INFO][T:24737685@qtp-24478976-4][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:46:03:498[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:46:03:498[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188763492.6397038' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188763492.6397038'
+2020-07-31 16:46:21:884[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:13ur9ucgx2iwt@16897267
+2020-07-31 16:46:21:889[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:46:21:889[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869864
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:46:21:893[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:46:21:896[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:46:21:897[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:21:900[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:13ur9ucgx2iwt@16897267
+2020-07-31 16:46:21:906[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:46:21:907[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: x.acs.a.x@1fa7372
+2020-07-31 16:46:21:910[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:46:21:910[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:21:911[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:13ur9ucgx2iwt@16897267
+2020-07-31 16:46:21:912[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:46:21:912[ INFO][T:Thread-47][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:46:21:912[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:21:913[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@3cf03b] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:21:914[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:46:21:920[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:21:920[ INFO][T:Thread-47][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:46:21:921[ INFO][T:Thread-47][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:46:21:922[ INFO][T:Thread-47][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:46:21:922[ INFO][T:Thread-47][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:46:21:922[ INFO][T:Thread-47][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:46:21:922[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:46:21:922[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:46:21:922[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:46:21:923[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:46:21:923[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:46:21:923[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:46:21:923[DEBUG][T:Thread-47][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:46:21:924[ INFO][T:Thread-47][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:46:21:924[ INFO][T:Thread-47][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188781923.9502249' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188781923.9502249'
+2020-07-31 16:46:21:970[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:13ur9ucgx2iwt@16897267
+2020-07-31 16:46:21:974[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Fault
+2020-07-31 16:46:21:974[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:46:21:974[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188763492.6397038
+2020-07-31 16:46:21:975[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:46:21:975[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:21:975[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188763492.6397038 req=FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:46:21:975[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@13c95cb] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:21:976[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:46:21:976[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188763492.6397038' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188763492.6397038'] close
+2020-07-31 16:46:21:980[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:22:081[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:13ur9ucgx2iwt@16897267
+2020-07-31 16:46:22:085[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:46:22:085[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:46:22:085[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188781923.9502249
+2020-07-31 16:46:22:086[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:46:22:086[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:22:086[DEBUG][T:Thread-47][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188781923.9502249 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:46:22:087[ INFO][T:Thread-47][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188781923.9502249' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188781923.9502249'] close
+2020-07-31 16:46:22:087[ INFO][T:Thread-47][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:46:22:087[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:46:22:087[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:46:22:087[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:46:22:087[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:46:22:087[DEBUG][T:Thread-47][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:46:24:898[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:46:24:899[ INFO][T:24737685@qtp-24478976-4][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:46:24:899[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188784898.22568857' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188784898.22568857'
+2020-07-31 16:46:24:899[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@1482a1b] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:24:899[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:46:24:903[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:24:953[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:13ur9ucgx2iwt@16897267
+2020-07-31 16:46:24:960[ INFO][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Request is Fault
+2020-07-31 16:46:24:960[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:46:24:961[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188784898.22568857
+2020-07-31 16:46:24:961[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:46:24:961[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:24:962[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188784898.22568857 req=FAULT: code=Client msg=CWMP fault ccode=9005 cmsg=Invalid parameter name
+2020-07-31 16:46:24:963[ INFO][T:24737685@qtp-24478976-4][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188784898.22568857' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188784898.22568857'] close
+2020-07-31 16:46:29:963[DEBUG][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:29:964[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:46:29:966[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:30:006[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:46:30:007[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.RequestCPEConnection(?)]: reconnect to host[http://172.21.6.125:7547/] 
+2020-07-31 16:46:30:010[ INFO][T:8345839@qtp-24478976-7][x.acs.servlet.a.getPasswordAuthentication(?)]: MyAuthenticator: ui=null
+2020-07-31 16:46:30:011[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188790006.26336495' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188790006.26336495'
+2020-07-31 16:46:36:217[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:11zr77sm8xsom@24018736
+2020-07-31 16:46:36:222[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is Inform
+2020-07-31 16:46:36:222[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Inform:
+	oui: : 080699
+	sn: : 525400CAB1D8
+	Manufacturer: : CertusNet
+	Events:
+		1 BOOT: 
+	Params:
+		Device.DeviceInfo.SoftwareVersion: flexoran-bbu-4.1.2600-2020-v1.0.12
+		Device.DeviceInfo.SerialNumber: 525400CAB1D8
+		Device.DeviceInfo.HardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestURL: http://172.21.6.125:7547/
+		Device.DeviceInfo.UpTime: 869879
+		Device.DeviceInfo.Manufacturer: CertusNet
+		Device.DeviceInfo.ProvisioningCode: 080699
+		Device.ManagementServer.ConnectionRequestPassword: test
+		Device.DeviceInfo.ProductClass: FlexORAN
+		Device.DeviceInfo.3GPPSpecVersion: 1.00
+		Device.DeviceInfo.FirstUseDate: 2020-07-21T07:08:36
+		Device.DeviceInfo.ModelName: 06202003\.f3600
+		Device.DeviceInfo.ManufacturerOUI: 080699
+		Device.DeviceInfo.AdditionalSoftwareVersion: FLEXBBU.3600
+		Device.DeviceInfo.AdditionalHardwareVersion: 1.0
+		Device.ManagementServer.ConnectionRequestUsername: test
+		Device.DeviceInfo.HardwarePlatform: DELL740
+
+2020-07-31 16:46:36:226[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: oui=080699, sn=525400CAB1D8, URL=http://172.21.6.125:7547/, hw=1.0, sw=flexoran.bbu.4.1.2600.2020.v1.0.12, cfg=null, ProvisioningCode=080699
+2020-07-31 16:46:36:229[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:46:36:230[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:36:231[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:11zr77sm8xsom@24018736
+2020-07-31 16:46:36:234[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetRPCMethods
+2020-07-31 16:46:36:234[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: x.acs.a.x@1a41104
+2020-07-31 16:46:36:237[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 1 of 1
+2020-07-31 16:46:36:238[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:36:239[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:11zr77sm8xsom@24018736
+2020-07-31 16:46:36:240[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:46:36:240[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:36:240[ INFO][T:Thread-48][x.acs.b.a.a(?)]: Configurator::run
+2020-07-31 16:46:36:240[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@1244969] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:36:241[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:46:36:245[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:36:245[ INFO][T:Thread-48][x.acs.b.a.a(?)]: Backup cwmp tree
+2020-07-31 16:46:36:245[ INFO][T:Thread-48][x.acs.b.a.a(?)]: No cfg backup found.
+2020-07-31 16:46:36:246[ INFO][T:Thread-48][x.acs.servlet.e.run(?)]: not need to restore config host
+2020-07-31 16:46:36:247[ INFO][T:Thread-48][x.acs.servlet.e.a(?)]: not template config for host[525400CAB1D8] found
+2020-07-31 16:46:36:247[ INFO][T:Thread-48][x.acs.b.a.a(?)]: Configurator::CheckParameters
+2020-07-31 16:46:36:247[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:46:36:247[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformEnable  is writable
+2020-07-31 16:46:36:247[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:46:36:247[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Parameter Device.ManagementServer.PeriodicInformInterval  is writable
+2020-07-31 16:46:36:247[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:46:36:247[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Get parameter: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:46:36:248[DEBUG][T:Thread-48][x.acs.b.c.a(?)]: send msg HWID[1] SN[525400CAB1D8]
+2020-07-31 16:46:36:248[ INFO][T:Thread-48][x.acs.bean.CPEBean.RequestCPEConnection(?)]: session of host[http://172.21.6.125:7547/] is Alive , do not reconnect
+2020-07-31 16:46:36:248[ INFO][T:Thread-48][x.acs.b.c.a(?)]: CLIENT: Creating cosumer: JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188796248.18374505' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188796248.18374505'
+2020-07-31 16:46:36:312[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:11zr77sm8xsom@24018736
+2020-07-31 16:46:36:338[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:46:36:338[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.DeviceInfo.SoftwareVersion=flexoran-bbu-4.1.2600-2020-v1.0.12
+
+2020-07-31 16:46:36:338[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188790006.26336495
+2020-07-31 16:46:36:339[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:46:36:340[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:36:340[DEBUG][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188790006.26336495 req=Device.DeviceInfo.SoftwareVersion=flexoran-bbu-4.1.2600-2020-v1.0.12
+
+2020-07-31 16:46:36:340[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[x.acs.a.t@32d3fc] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:36:340[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: GetParameterValues
+2020-07-31 16:46:36:340[ INFO][T:8345839@qtp-24478976-7][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188790006.26336495' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188790006.26336495'] close
+2020-07-31 16:46:36:341[ INFO][T:8345839@qtp-24478976-7][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:46:36:344[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-07-31 16:46:36:443[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: process request: ip=172.21.6.125 path=null querystring=null sess=org.mortbay.jetty.servlet.HashSessionManager$Session:11zr77sm8xsom@24018736
+2020-07-31 16:46:36:446[ INFO][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Request is GetParameterValuesResponse
+2020-07-31 16:46:36:446[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:46:36:446[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Send JMS reply for ID:intrnl.unset.id.GetParameterValues1596188796248.18374505
+2020-07-31 16:46:36:447[DEBUG][T:24737685@qtp-24478976-4][x.acs.b.a.a(?)]: Envelopes: 0 of 1
+2020-07-31 16:46:36:447[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: comsumer for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:36:447[DEBUG][T:Thread-48][x.acs.b.c.a(?)]: RCV1: ID:intrnl.unset.id.GetParameterValues1596188796248.18374505 req=Device.ManagementServer.PeriodicInformInterval=1800
+Device.ManagementServer.PeriodicInformEnable=true
+
+2020-07-31 16:46:36:447[ INFO][T:Thread-48][x.acs.b.c.a(?)]: consumer filter[JMSCorrelationID='ID:intrnl.unset.id.GetParameterValues1596188796248.18374505' OR JMSCorrelationID='intrnl.unset.id.GetParameterValues1596188796248.18374505'] close
+2020-07-31 16:46:36:448[ INFO][T:Thread-48][x.acs.bean.CPEBean.WaitJmsReply(?)]: RCV1:  req=GetParameterValuesResponse
+2020-07-31 16:46:36:448[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformEnable
+2020-07-31 16:46:36:448[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformEnable  1==true
+2020-07-31 16:46:36:448[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Device.ManagementServer.PeriodicInformInterval
+2020-07-31 16:46:36:448[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Value OK :Device.ManagementServer.PeriodicInformInterval  1800==1800
+2020-07-31 16:46:36:448[DEBUG][T:Thread-48][x.acs.servlet.e.a(?)]: Nothing to set
+2020-07-31 16:46:41:448[DEBUG][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.jmsReceiveRequest(?)]: return msg[null] for filter[HWID='1' AND SN='525400CAB1D8']
+2020-07-31 16:46:41:448[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: Received: null
+2020-07-31 16:46:41:449[ INFO][T:24737685@qtp-24478976-4][x.acs.servlet.ACSServlet.processRequest(?)]: End of processing
+2020-08-01 14:50:22:452[ INFO][T:AWT-EventQueue-0][x.acs.main.e.a(?)]: try to stop mysqld
+2020-08-01 14:50:22:457[DEBUG][T:AWT-EventQueue-0][x.acs.main.e.a(?)]: absolute path=C:\Users\w\Desktop\xacs\mysql
+2020-08-01 14:50:22:457[DEBUG][T:AWT-EventQueue-0][x.acs.main.e.a(?)]: command==[C:\Users\w\Desktop\xacs\mysql\bin\mysqladmin.exe, --defaults-file=C:\Users\w\Desktop\xacs\mysql\my.ini, -u, root, --password=mysql, -h, localhost, shutdown]
+2020-08-01 14:50:22:701[ INFO][T:AWT-EventQueue-0][x.acs.main.e.a(?)]: mysql server closed
+2020-08-01 14:50:25:705[ INFO][T:Shutdown][org.mortbay.log.Slf4jLog.info(67)]: Shutdown hook executing
+2020-08-01 14:50:25:706[ INFO][T:Shutdown][org.mortbay.log.Slf4jLog.info(67)]: Graceful shutdown SelectChannelConnector@0.0.0.0:80
+2020-08-01 14:50:25:757[ INFO][T:Shutdown][org.mortbay.log.Slf4jLog.info(67)]: Graceful shutdown org.mortbay.jetty.webapp.WebAppContext@cdb11e{,file:/C:/Users/w/Desktop/xacs/webapps/ROOT/}
+2020-08-01 14:50:26:789[ERROR][T:Shutdown][x.acs.b.c.a(?)]: Peer (vm://localhost#1) disposed.
+javax.jms.JMSException: Peer (vm://localhost#1) disposed.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:62)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1267)
+	at org.apache.activemq.ActiveMQConnection.asyncSendPacket(ActiveMQConnection.java:1259)
+	at org.apache.activemq.ActiveMQSession.asyncSendPacket(ActiveMQSession.java:1863)
+	at org.apache.activemq.ActiveMQMessageConsumer.doClose(ActiveMQMessageConsumer.java:664)
+	at org.apache.activemq.ActiveMQMessageConsumer.close(ActiveMQMessageConsumer.java:652)
+	at org.apache.activemq.pool.PooledSession.close(PooledSession.java:98)
+	at x.acs.b.c.a(Unknown Source)
+	at x.acs.servlet.ACSServlet.jmsFinishQueueing(Unknown Source)
+	at x.acs.servlet.ACSServlet.FinishQueueing(Unknown Source)
+	at x.acs.servlet.ACSServlet.destroy(Unknown Source)
+	at org.mortbay.jetty.servlet.ServletHolder.destroyInstance(ServletHolder.java:318)
+	at org.mortbay.jetty.servlet.ServletHolder.doStop(ServletHolder.java:289)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler.doStop(ServletHandler.java:174)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStop(HandlerWrapper.java:142)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStop(HandlerWrapper.java:142)
+	at org.mortbay.jetty.servlet.SessionHandler.doStop(SessionHandler.java:125)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStop(HandlerWrapper.java:142)
+	at org.mortbay.jetty.handler.ContextHandler.doStop(ContextHandler.java:591)
+	at org.mortbay.jetty.webapp.WebAppContext.doStop(WebAppContext.java:505)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerCollection.doStop(HandlerCollection.java:169)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerCollection.doStop(HandlerCollection.java:169)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStop(HandlerWrapper.java:142)
+	at org.mortbay.jetty.Server.doStop(Server.java:283)
+	at org.mortbay.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:76)
+	at org.mortbay.jetty.Server$ShutdownHookThread.run(Server.java:561)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Peer (vm://localhost#1) disposed.
+	at org.apache.activemq.transport.vm.VMTransport.oneway(VMTransport.java:89)
+	at org.apache.activemq.transport.MutexTransport.oneway(MutexTransport.java:40)
+	at org.apache.activemq.transport.ResponseCorrelator.oneway(ResponseCorrelator.java:60)
+	at org.apache.activemq.ActiveMQConnection.doAsyncSendPacket(ActiveMQConnection.java:1265)
+	... 31 more
+2020-08-01 14:50:26:797[ INFO][T:Shutdown][org.mortbay.log.Slf4jLog.info(67)]: Destroying Spring FrameworkServlet 'remoting'
+2020-08-01 14:50:26:830[ INFO][T:Shutdown][org.mortbay.log.Slf4jLog.info(67)]: Closing Spring root WebApplicationContext
+2020-08-01 14:50:27:067[ INFO][T:Shutdown][org.mortbay.log.Slf4jLog.info(67)]: Shutdown hook complete

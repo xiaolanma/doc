@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app> 
+-->
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"> 
+  
+
+    <display-name>ACS web pages</display-name>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			/WEB-INF/spring.xml
+		</param-value>
+	</context-param>
+	
+	<!-- wicket ajax debug mode -->
+	<context-param>
+	        <param-name>configuration</param-name>
+	        <param-value>deployment</param-value> 
+	</context-param>
+	
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>x.acs.main.ContextInit</listener-class>
+	</listener>
+    
+    <!--
+    <listener>
+        <listener-class>x.acs.servlet.Context</listener-class>
+    </listener>
+ 	-->
+ 	<servlet>
+		<servlet-name>ajaxServlet</servlet-name>
+		<servlet-class>x.acs.web.servlet.AjaxServiceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ajaxServlet</servlet-name>
+		<url-pattern>/a</url-pattern>
+	</servlet-mapping>  
+ 
+ 
+<!--
+	<filter>
+		<filter-name>HelloWorldApplication</filter-name>
+		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
+		<init-param>
+		  <param-name>applicationClassName</param-name>
+		  <param-value>x.acs.web.demo.HelloWorldApplication</param-value>
+		</init-param>
+	</filter> 
+ 
+ 	<filter-mapping>
+		<filter-name>HelloWorldApplication</filter-name>
+		<url-pattern>/helloworld/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+ 
+ 	<filter>
+		<filter-name>LoginApplication</filter-name>
+		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
+		<init-param>
+		  <param-name>applicationClassName</param-name>
+		  <param-value>x.acs.web.login.LoginApplication</param-value>
+		</init-param>
+	</filter> 
+ 
+ 	<filter-mapping>
+		<filter-name>LoginApplication</filter-name>
+		<url-pattern>/login/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+ -->
+  	<filter>
+		<filter-name>WebMainApplication</filter-name>
+		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
+		<init-param>
+		  <param-name>applicationClassName</param-name>
+		  <param-value>x.acs.web.frame.WebMainApplication</param-value>
+		</init-param>
+	</filter> 
+ 
+ 	<filter-mapping>
+		<filter-name>WebMainApplication</filter-name>
+		<url-pattern>/*</url-pattern><!-- 访问默认路径 -->
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+    
+    <error-page>
+		<error-code>404</error-code>
+		<location>/</location>
+	</error-page>
+    
+	 <servlet> 
+		<servlet-name>remoting</servlet-name> 
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class> 
+		<load-on-startup>1</load-on-startup> 
+	</servlet> 
+	<servlet-mapping> 
+		<servlet-name>remoting</servlet-name> 
+		<url-pattern>/remoting/*</url-pattern> 
+	</servlet-mapping>
+ 
+    
+    <servlet>
+        <servlet-name>ACS servlet</servlet-name>
+        <servlet-class>x.acs.servlet.ACSServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Upload</servlet-name>
+        <servlet-class>x.acs.servlet.UploadServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UploadLog</servlet-name>
+        <servlet-class>x.acs.servlet.UploadLogServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>UploadCfg</servlet-name>
+    	<servlet-class>x.acs.servlet.UploadCfgServlet</servlet-class>
+    </servlet>    
+    <servlet>
+        <servlet-name>client</servlet-name>
+        <servlet-class>x.acs.servlet.client</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConfigServlet</servlet-name>
+        <servlet-class>x.acs.servlet.ConfigServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DownloadServlet</servlet-name>
+        <servlet-class>x.acs.servlet.DownloadServlet</servlet-class>
+    </servlet>
+    
+  <servlet>
+    	<servlet-name>UpgradeSoftwareSuccessCallback</servlet-name>
+    	<servlet-class>x.acs.servlet.UpgradeSuccessServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>UpgradeSoftwareFailureCallback</servlet-name>
+    	<servlet-class>x.acs.servlet.UpgradeFailureServlet</servlet-class>
+    </servlet>    
+    
+    <servlet-mapping>
+        <servlet-name>ACS servlet</servlet-name>
+        <url-pattern>/acs</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>ACS servlet</servlet-name>
+        <url-pattern>/ACS-server/ACS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Upload</servlet-name>
+        <url-pattern>/upload/*</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>UploadLog</servlet-name>
+        <url-pattern>/uploadlog/*</url-pattern>
+    </servlet-mapping>   
+    <servlet-mapping>
+        <servlet-name>UploadCfg</servlet-name>
+        <url-pattern>/uploadcfg/*</url-pattern>
+    </servlet-mapping>   
+    
+    <servlet-mapping>
+        <servlet-name>client</servlet-name>
+        <url-pattern>/client</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>client</servlet-name>
+        <url-pattern>/recv</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+    	<servlet-name>UpgradeSoftwareSuccessCallback</servlet-name>
+    	<url-pattern>/callback/upgrade/success</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UpgradeSoftwareFailureCallback</servlet-name>
+    	<url-pattern>/callback/upgrade/failure</url-pattern>
+    </servlet-mapping>    
+    
+   <servlet>
+        <servlet-name>tstservlet</servlet-name>
+        <servlet-class>x.acs.servlet.tstservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tstservlet</servlet-name>
+        <url-pattern>/tst</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ConfigServlet</servlet-name>
+        <url-pattern>/cfg/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DownloadServlet</servlet-name>
+        <url-pattern>/firmware/*</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!-- 
+	<servlet>
+		<servlet-name> HelloWorldApplication </servlet-name>
+		<servlet-class > org.apache.wicket.protocol.http.WicketServlet </servlet-class >
+		<init-param >
+			<param-name > applicationClassName </param-name >
+			<param-value> x.acs.web.demo.HelloWorldApplication </param-value >
+		</init-param>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name> HelloWorldApplication </servlet-name>
+		<url-pattern > /helloWorld/* </url-pattern>
+	</servlet-mapping>
+    
+   -->
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+ 
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jspf</url-pattern>
+            <is-xml>true</is-xml>
+        </jsp-property-group>
+    </jsp-config>
+    
+</web-app>

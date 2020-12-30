@@ -1,0 +1,301 @@
+1
+.ssh-keygen.exe
+
+cat ~/.ssh/id_rsa.pub
+
+2.
+git clone git@172.21.6.6:oam_du/oam_doc.git
+libxconfd:
+git clone ssh://maxiaolan@172.16.164.211:29418/flexnfv-xp/libxconfd && scp -p -P 29418 maxiaolan@172.16.164.211:hooks/commit-msg libxconfd/.git/hooks/
+
+大家好：
+xconfd的go语言版本代码，已经由朱林整理完成，并放入git工程库中，工程名：         
+flexnfv-xp/libxconfd
+ 
+
+已经激活的账号的同事可以登录http://172.16.164.211 ，在project中搜索 该工程。还没有激活账号的同事请明天激活后通知我开通权限。
+
+下载代码，可以使用ssh或者http命令下载：
+ssh方式（需要添加公钥）：git clone ssh://username@172.16.164.211:29418/flexnfv-xp/libxconfd && scp -p -P 29418 username@172.16.164.211:hooks/commit-msg libxconfd/.git/hooks/
+http方式（需要输入http密码）：git clone http://username@172.16.164.211/flexnfv-xp/libxconfd && scp -p -P 29418 username@172.16.164.211:hooks/commit-msg libxconfd/.git/hooks/
+          http密码：
+         
+
+
+目前已知需要依赖的第三方库为：openssl, libxml2
+需要的编译环境为：gcc, go1.12.1
+只需要关注go目录下的代码即可。（libconfd为ConfD自带源码。可以不用关注）。
+             libxconfd
+                ├── go
+                ├── libconfd
+
+大家有问题可以企业微信直接联系我，谢谢！
+confd_cli
+
+configure
+
+set
+
+show flexoran-5gnr
+
+set flexoran-5gnr rru-manager callhome-cfg callhome-port 111
+
+[root@33_du build]# cd /usr/local/
+[root@33_du local]# find ./ | grep libxconfd
+^C
+[root@33_du local]# find ./ | grep libxconfd^C
+[root@33_du local]# cd ..
+[root@33_du usr]# find ./ -name libxconfd.so
+./lib/libxconfd.so
+^C
+[root@33_du usr]# ll ./lib/libxconfd.so
+-rw-r--r-- 1 root root 9514458 11月 23 15:52 ./lib/libxconfd.so
+
+du 启动脚本目录：/root/workspace/du/du_1.8/du/radisys-du/build/pal/du_bin/bin
+
+confd(OAM)启动目录：/root/workspace/oam/oam_1/yang/publish/data_model_def
+start_confd.sh
+
+GNBDUFunction:du相关的参数
+flexoran-5gnr：OAM相关参数
+
+export PATH=$PATH:/usr/local/go/bin
+
+git clone ssh://maxiaolan@172.16.164.211:29418/flexnfv-xp/libxconfd && scp -p -P 29418 maxiaolan@172.16.164.211:hooks/commit-msg libxconfd/.git/hooks/
+
+29418 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDy5uW3goW6SQv62J2MzRm39dLwrouqpjQLpko1hMUaYKQc6QYuvdvgvRhjJgV2/fMdmnipISQ5N/5WPTF7dsjHrNMB9r+dcwHuH+qX2l3VpX8JwZAY8ZBMb0P5H82vk/uBqENkX5vb5u1NrQ0n7dtwB2CWdX6gVnzm52eKtDanIyH1X+5LUU9oWqWKX3RM8TsEstvCSpOVcWLp+gZXG8YruJonsf2Sqf0JG2g1Zhzq20RiIoXr0G9LXTYeqzZDMo7ZibTSWu0nhqQVjA1PFNTYbA4ndAtpUoEOrVjUvz0SzxDMx9KVG6z7jY5pShYP3SaYDEdiBhdSXjpYIsn7hwR
+
+还有一种方法就是在/etc/ssh/ssh_config文件的最后一行加入：
+KexAlgorithms +diffie-hellman-group1-sha1
+
+Du侧环境启动
+/root/workspace/du/du_1.8/du/radisys-du/build/pal/du_bin/bin
+./gnb_du_pal_2020-03-03-16-02-30 -f ../config/ssi_mem
+
+
+开发中常用操作
+删除文件：git rm 文件名[删除本地git仓库文件, 提交后远程服务器上的文件才会消失]
+查看状态：git status
+添加记录：git add 文件名 或 git add . [将文件提交到远程git服务器上]
+添加描述：git commit -m "描述或备注类似svn提交时的注释"
+同步数据：git pull  [获取git远程服务器上的数据也可以具体到某一分支如: git pull origin 分支名]
+提交数据：git push origin 分支名
+分支操作
+查看分支：git branch
+创建分支：git branch 分支名
+切换分支：git checkout 分支名
+创建+切换分支：git checkout -b 分支名
+合并某分支到当前分支：git merge 分支名
+　　[比如，如果要将开发中的分支（deve），合并到稳定分支（master），
+     首先切换的master分支：git checkout master。
+     然后执行合并操作：git merge deve。
+     如果有冲突，会提示你，调用git status查看冲突文件。
+     解决冲突，然后调用git add或git rm将解决后的文件暂存。
+     所有冲突解决后，git commit 提交更改。]
+　　注意点:
+　　分支衍合
+     分支衍合和分支合并的差别在于，分支衍合不会保留合并的日志，不留痕迹，而 分支合并则会保留合并的日志。
+     要将开发中的分支（dev），衍合到稳定分支（master）。
+     首先切换的master分支：git checkout master。
+     然后执行衍和操作：git rebase deve
+     如果有冲突，会提示你，调用git status查看冲突文件。
+     解决冲突，然后调用git add或git rm将解决后的文件暂存。
+     所有冲突解决后，git rebase --continue 提交更改。
+删除分支：git branch -d 分支名
+　　删除分支执行git branch -d 分支名
+     如果该分支没有合并到主分支会报错，可以用以下命令强制删除git branch -D 分支名
+删除远程分支：git push origin :name
+撤销修改：git checkout -- file
+
+clone单个分支可以用：git clone -b branchA http://admin@192.168.1.101:7070/r/virtualbox_all_versions.git,就可以实现了
+使用 git show [commit id] | grep diff | cut -d" " -f 3 查看提交的信息
+
+go run -gcflags "-m -l" main.go
+使用 go run 运行程序时，-gcflags 参数是编译参数。其中 -m 表示进行内存分配分析，-l 表示避免程序内联，也就是避免进行程序优化。
+
+//查看远程仓库地址
+git remote -v 
+
+
+
+Linux软链接 
+ln -s sourcefileaame linkfilename
+ls -al或者ls -al linkfilename可以查看软链接文件及其真实映射的源文件
+软链接是linux提供的功能，如果把链接文件拷出来，那么通过vitualbox、wins
+
+
+Linux下scp的用法 
+
+对拷文件夹 (包括文件夹本身)
+scp -r   /home/wwwroot/www/charts/util root@192.168.1.65:/home/wwwroot/limesurvey_back/scp
+对拷文件夹下所有文件 (不包括文件夹本身)
+scp   /home/wwwroot/www/charts/util/* root@192.168.1.65:/home/wwwroot/limesurvey_back/scp
+ 对拷文件并重命名
+scp   /home/wwwroot/www/charts/util/a.txt root@192.168.1.65:/home/wwwroot/limesurvey_back/scp/b.text
+/home/wwwroot/www/charts/util/           本地绝对路径
+a.txt                                                     要拷贝
+root                                                      通过root用户登录到远程服务器
+192.168.1.65                                       远程服务器的ip地址
+/home/wwwroot/limesurvey_back/scp  复制到远程服务器上的路径      （注意ip地址后有：）
+注:  通常还在后面输入  用户名和密码
+
+
+查看系统信息：
+uname -a 
+cat /etc/*release
+
+查看线程数：
+pstree -p 5148 | wc -l(个数)
+ps hH p 5148| wc -l
+pstree -p 5148(树形显示)
+cat /proc/19135/status
+
+将tar压缩文件解压到指定的目录下的命令是：
+tar -xvf  压缩文件 -C  /指定目录
+
+du侧代码更新：
+郭亮:
+http://localhost/layer2/radisys-du.git
+
+guoliang/880925aa
+克隆远程分支：
+git clone -b feat_config_parameter_refactor  http://172.21.6.6/layer2/radisys-du.git
+查看netconf配置。
+netconf-console-tcp --get -x "/ngran5gNB:GNBDUFunction/NRCellDU[nrCellDuKey='{i}']/l1-CfgInfo/sib1Params/cellAccessInfo/pLMNIdentityList[pLMNIdentityInfoIndex='{i}']/pLMNIdList[pLMNIdIndex='{i}']/pLMNID"
+
+netconf-console-tcp --get -x "/oran5gmo:flexoran-5gnr/log-manager/logger-mgmt/PeriodicUploadEnable"
+
+更新ngran_gNB_DUFunction.h文件：
+$ confdc --emit-h ngran_gNB_DUFunction.h ngran-gNBDUFunction.fxs
+
+链接netconf browser:
+uername:admin
+password:admin
+port:2022/2023
+
+查看netconf报文：
+/usr/local/confd-6.7.3/examples.confd/intro/1-2-3-start-query-model
+
+git submodule update --recurisive
+
+
+linux后台查看共享内存和消息队列的命令 
+
+ipcs
+ipcs -q : 显示所有的消息队列
+ipcs -qt : 显示消息队列的创建时间，发送和接收最后一条消息的时间
+ipcs -qp: 显示往消息队列中放消息和从消息队列中取消息的进程ID
+ipcs -q -i msgid: 显示该消息队列结构体中的消息信息：
+ipcs -ql : 显示消息队列的限制信息：
+取得ipc信息：
+ipcs [-m|-q|-s]
+-m 输出有关共享内存(shared memory)的信息
+-q 输出有关信息队列(message queue)的信息
+-s 输出有关“遮断器”(semaphore)的信息
+删除ipc
+ipcrm -m|-q|-s shm_id
+
+top -Hp pid可以查看某个进程的线程信息
+
+思想者:
+@郭亮 du虚机出问题了
+
+思想者:
+重新起一下
+
+1:
+我之前reboot后，才连不上了。我现在不知道还有什么别的方法可以重启？
+
+思想者:
+cd /home/vm/102-nr
+
+思想者:
+./cfg-ovs-102.sh stop du 102
+
+思想者:
+./cfg-ovs-102.sh start du 102
+
+思想者:
+别的虚机也是这样重启
+
+1:
+102没有 /home/vm/102-nr 这个目录。。。
+
+思想者:
+物理机是172.21.6.54
+
+思想者:
+密码certusnet@54
+
+1:
+好的。我试一下
+
+思想者:
+虚机就是物理机上一个进程
+
+1:
+非常感谢
+
+思想者:
+可以用ps -ef|grep kvm查看进程起没起
+
+1:
+172.21.6.54 这个物理机密码被改了。刚试了密码123456 能登上去
+
+付锦锦 5-28 16:50:31
+set flexoran-5gnr device-manager conif-cfg conif-omc  ETH-NAME
+
+付锦锦 5-28 16:50:44
+set flexoran-5gnr device-manager conif-cfg conif-rru  ETH-NAME
+
+防火墙允许接入(链接rru,port:4334, oam链接OMC，port:2022)：
+firewall-cmd --zone=public --add-port=4334/tcp --permanent
+firewall-cmd --reload
+
+抓包命令：
+tcpdump -i any -w ***.pcap
+
+设置go环境：
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
+
+如何去掉vim中的底色：
+nohl 回车
+
+编译LTE的oam代码的时候:
+先编译cspl的代码
+然后执行下列操作：
+cp -r ../cspl/cspl_pub/output/macro_x86/bin/ ./pkg/eNB/bin/MCB/APP/
+cp -r ../cspl/cspl_pub/output/macro_x86/lib/ ./pkg/eNB/bin/MCB/APP/
+cp -r ../cspl/cspl_pub/output/macro_x86/include/cspl/ ./PUB/include/
+cp -r ../cspl/cspl_pub/output/macro_x86/lib/* ./PUB/lib/eNB/cspl/x86/
+
+
+平台程序编译命令：
+pal模式：gcc -DPLATFORM_PAL -o plane_pal bbu_isp.c -g -lrt -pthread    
+非pal模式：gcc -o plane bbu_isp.c -g -lrt -pthread 
+
+
+
+孙振国 8-13 20:26:55
+https://www.cnblogs.com/kerrycode/p/4784634.html
+
+孙振国 8-13 20:26:55
+ssh登录服务器慢 可以参考这个配置修改下
+
+给虚拟机配置ip地址
+ifconfig eth0 102.168.0.1 netmask 255.255.255.0 
+给虚拟机配置网关
+route add default gw ip_address eth0
+
+
+更新netopeer 数据库
+sysrepoctl -l //产看moduel
+sysrepoctl -u o-ran-test //卸载module
+sysrepoctl -i config/o-ran-test.yang //重新加载moduel
+
+
+解决：ImportError: No module named site 的问题
+使用如下方法：在linux终端执行
+unset PYTHONPATH
+unset PYTHONHOME

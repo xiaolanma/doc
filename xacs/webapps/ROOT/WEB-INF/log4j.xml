@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	
+	<appender name="sysout" class="org.apache.log4j.ConsoleAppender">
+		<param name="target" value="System.out"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%5p][%t]%d{HH:mm:ss.SSS}-%c.%M(%L) %m%n"/>
+		</layout>
+	</appender>
+	
+	<!--
+	[%p]%d{yyyy-MM-dd HH:mm:ss.SSS} - %C.%M()(%L) %m%n
+		[%p] %d{dd MMM hh:mm:ss.SSS aa} %t [%c]%n%m%n%n
+	%d{yyyy-MM-dd HH:mm:ss} - %C.%M()(%L) %m%n
+	-->
+	
+	<appender name="db" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/db.log"/>
+		<param name="MaxFileSize" value="1MB"/>
+		<param name="MaxBackupIndex" value="10"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%p][%d{dd MMM yyyy HH:mm:ss:SSS}] %-5c{2}: %m%n"/>
+		</layout>
+	</appender>
+
+	<appender name="stdout" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="logs/stdout.log"/>
+		<param name="MaxFileSize" value="5MB"/>
+		<param name="MaxBackupIndex" value="10"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="[%p][%d{dd MMM yyyy HH:mm:ss:SSS}] %-5c{2}: %m%n"/>
+		</layout>
+	</appender>
+	
+	<logger name="org.hibernate">
+		<level value="error"/>
+		<appender-ref ref="db"/>
+	</logger>
+	
+	<logger name="org.quartz">
+		<level value="error"/>
+		<!--   appender-ref ref="quartz"/ -->
+	</logger>
+
+	
+	<logger name="org.springframework">
+		<level value="error" />
+	</logger>
+	
+	<logger name="org.apache">
+		<level value="off"/>
+	</logger>
+
+	<logger name="com.mchange">
+		<level value="error" />
+	</logger>
+	
+	<logger name="org.mortbay" >
+		<level value="off" />
+	</logger>
+	
+	<root>
+		<level value="debug"/>
+		<appender-ref ref="sysout"/>
+		<appender-ref ref="stdout" />
+	</root>
+	
+</log4j:configuration>

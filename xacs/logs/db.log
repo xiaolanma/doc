@@ -1,0 +1,1 @@
+2020-07-31 14:11:53:864[ERROR][T:pool-2-thread-1][org.hibernate.util.JDBCExceptionReporter.logExceptions(78)]: Table 'xacs.propertybean' doesn't exist

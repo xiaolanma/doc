@@ -1,0 +1,25 @@
+200731 14:11:48  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+200731 14:11:48  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Cannot initialize created log files because
+InnoDB: data files are corrupt, or new data files were
+InnoDB: created when the database was started previous
+InnoDB: time but the database was not shut down
+InnoDB: normally after that.
+200731 14:11:48 [Note] C:\Users\w\Desktop\xacs\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.0.27-community-log'  socket: ''  port: 3366  MySQL Community Edition (GPL)
+200801 14:50:23 [Note] C:\Users\w\Desktop\xacs\mysql\bin\mysqld.exe: Normal shutdown
+
+200801 14:50:25 [Warning] C:\Users\w\Desktop\xacs\mysql\bin\mysqld.exe: Forcing close of thread 57  user: 'root'
+
+200801 14:50:25 [Warning] C:\Users\w\Desktop\xacs\mysql\bin\mysqld.exe: Forcing close of thread 56  user: 'root'
+
+200801 14:50:25 [Warning] C:\Users\w\Desktop\xacs\mysql\bin\mysqld.exe: Forcing close of thread 55  user: 'root'
+
+200801 14:50:25 [Warning] C:\Users\w\Desktop\xacs\mysql\bin\mysqld.exe: Forcing close of thread 52  user: 'root'
+
+200801 14:50:25 [Note] C:\Users\w\Desktop\xacs\mysql\bin\mysqld.exe: Shutdown complete
+

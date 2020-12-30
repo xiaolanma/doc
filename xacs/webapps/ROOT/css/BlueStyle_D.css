@@ -1,0 +1,56 @@
+/* ------------------ 定义控件默认风格，某些页面不需导入 ---------------- */
+
+table {
+	border: 1px solid #4699FF;
+	background-color: #FFFFFF;
+	cellpadding: 1px;
+	cellspacing: 1px;
+}
+
+th {
+	padding: 4px;
+	font : 10pt Tahoma,  宋体;
+	color: #ffffff;
+	font-weight : bold;
+	background-color: #0a5c8e;
+}
+
+td {
+	background-color: #F2F2F2;
+	padding: 4px;
+	font : 10pt  Tahoma,  宋体;
+}
+
+a {
+	display:inline-block; 
+	padding:1px 8px; 
+	text-decoration:none; 
+	color: #333 !important; 
+	cursor:pointer; 
+	border: solid 1px #999; 
+	border-radius: 5px; 
+	background: #DDD; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD');
+	background: linear-gradient(top, #FFF, #DDD); 
+	background: -moz-linear-gradient(top, #FFF, #DDD); 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#DDD)); 
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 1); 
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .2), 0 -1px 0 rgba(0, 0, 0, .09); 
+	-moz-transition:-moz-box-shadow linear .2s;
+	-webkit-transition: -webkit-box-shadow linear .2s;
+	transition: box-shadow linear .2s;
+	white-space: nowrap; 
+  }
+
+SELECT
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #FFFFFF 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #FFFFFF 1px solid;
+    COLOR:#003366;
+    BORDER-BOTTOM: #000000 1px solid;
+    BACKGROUND-COLOR: #f4f4f4;
+}
+
+

@@ -1,0 +1,38 @@
+1.问题：
+x509: cannot validate certificate for 192.168.10.120 because it doesn't contain any IP SANs
+解决办法：
+https://blog.csdn.net/weixin_40592935/article/details/85112158
+
+
+2.证书制作步骤：
+首先我们来建立我们自己的CA，需要生成一个CA私钥和一个CA的数字证书:
+$openssl genrsa -out ca.key 2048
+Generating RSA private key, 2048 bit long modulus
+……….+++
+………………………….+++
+e is 65537 (0×10001)
+
+$openssl req -x509 -new -nodes -key ca.key -subj "/CN=tonybai.com" -days 5000 -out ca.crt
+接下来，生成server端的私钥，生成数字证书请求，并用我们的ca私钥签发server的数字证书：
+openssl genrsa -out server.key 2048
+Generating RSA private key, 2048 bit long modulus
+….+++
+…………………….+++
+e is 65537 (0×10001)
+
+$openssl req -new -key server.key -subj "/CN=localhost" -out server.csr
+
+$openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 5000
+Signature ok
+subject=/CN=localhost
+Getting CA Private Key
+现在我们的工作目录下有如下一些私钥和证书文件：
+CA:
+私钥文件 ca.key
+数字证书 ca.crt
+Server:
+私钥文件 server.key
+数字证书 server.crt
+
+3.要将device-info.xml中的url 修改成域名形势才可以访问。
+比如：https://192.168.10.120:9786/inform ==> https://www.5gomc.com:9768/inform

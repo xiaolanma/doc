@@ -1,0 +1,245 @@
+/* ------------------ 定义前台风格为绿色(BuleStyle) ---------------- */
+body {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:Tahoma,  宋体;
+	font-size:12px;
+}
+
+form { margin: 0px; }
+
+/* ------------------ 表格样式定义 ---------------- */
+/*定义表表头*/
+.table_th {
+	padding: 4px;
+	font : 10pt Tahoma,  宋体;
+	color: #ffffff;
+	font-weight : bold;
+	background-color: #0a5c8e;
+}
+
+/*定义表边框*/
+.table_border {
+	border: 1px solid #4699FF;
+	background-color: #FFFFFF;
+	cellpadding: 1px;
+	cellspacing: 1px;
+}
+
+/*定义表奇行属性*/
+.table_td {
+	background-color: #F2F2F2;
+	padding: 4px;
+	font : 10pt  Tahoma,  宋体;
+}
+
+/*定义表奇行属性*/
+.table_td_rowOdd {
+	background-color: #F2F2F2;
+	padding: 4px;
+	font : 10pt  Tahoma,  宋体;
+}
+/*定义表偶行属性*/
+.table_td_rowEven {
+	background-color: #FFF;
+	padding: 4px;
+	font : 10pt  Tahoma,  宋体;
+}
+
+
+/* ------------------ 超链样式定义 ---------------- */
+  a:link {
+	font : 9pt Tahoma,  宋体;
+	text-decoration: none;
+	font-weight : normal;
+	color : #054405;
+  }
+  a:visited {
+	font : 9pt Tahoma,  宋体;	
+	text-decoration: none;
+	color : #6A8607 ;
+  }
+  a:active {
+	font : 9pt Tahoma,  宋体;	
+	text-decoration: none;
+	font-weight : bold ;
+	color : #137E0E ;
+  }  
+  a:hover {
+	font : 9pt Tahoma,  宋体;
+	text-decoration: none;
+	/*font-weight : bold;*/
+	color : #00F;
+  }  
+/* ------------------tree样式定义 ---------------- */
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: black;
+	font-weight : bold ;
+	white-space: nowrap;
+}
+.dtree p{	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: green;
+	font-weight : bold ;
+	white-space: nowrap;
+}
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: black;
+	text-decoration: none;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #05837F;
+	font-weight : bold ;
+	text-decoration: none;
+}
+.dtree a.nodeSel {
+	background-color: #ffffff;	
+	
+}
+.dtree .clip {
+	overflow: hidden;
+}
+  .dtree a:link {
+	font : 9pt Tahoma,  宋体;	
+	text-decoration: none;
+	color : black ;
+  }
+  .dtree a:visited {
+	font : 9pt Tahoma,  宋体;	
+	text-decoration: none;
+	color : black ;
+  }
+  .dtree a:active {
+	font : 9pt Tahoma,  宋体;	
+	text-decoration: none;
+  }
+
+/* button */
+body input.button {
+	border-width: 0.1em; border-color: rgb(221, 221, 221) rgb(204, 204, 204) rgb(204, 204, 204) rgb(221, 221, 221); margin: 0px 0.3em 0px 0px; padding: 0.2em 0.36em; cursor: pointer;
+}
+input.button {
+	background: rgb(73, 111, 199); color: rgb(255, 255, 255);
+}
+input.button:hover {
+	background: rgb(99, 132, 207); color: rgb(255, 255, 255);
+}
+
+.aButton{
+	display:inline-block; 
+	padding:1px 8px; 
+	text-decoration:none; 
+	color: #333 !important; 
+	cursor:pointer; 
+	border: solid 1px #999; 
+	border-radius: 5px; 
+	background: #DDD; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD');
+	background: linear-gradient(top, #FFF, #DDD); 
+	background: -moz-linear-gradient(top, #FFF, #DDD); 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#DDD)); 
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 1); 
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .2), 0 -1px 0 rgba(0, 0, 0, .09); 
+	-moz-transition:-moz-box-shadow linear .2s;
+	-webkit-transition: -webkit-box-shadow linear .2s;
+	transition: box-shadow linear .2s;
+	white-space: nowrap; 
+  }
+
+/*******************************************************
+线条文本编辑框显示风格
+*****************************************************/
+.editBox
+{
+	background: #ffffff;
+	border: 1px solid #B7B7B7;
+	color: #003366;
+	cursor: text;
+	font-family: "Tahoma","宋体";
+	font-size: 9pt;
+	height: 18px;
+	padding: 1px;
+}
+
+input.text {
+	background: #ffffff;
+	border: 1px solid #B7B7B7;
+	color: #003366;
+	cursor: text;
+	font-family: "Tahoma","宋体";
+	font-size: 9pt;
+	height: 18px;
+	padding: 1px;
+}
+
+/**//****************************************************
+多行文本框样式
+*****************************************************/
+.multiEditBox
+{
+    background: #f8f8f8;
+    border-bottom: #B7B7B7 1px solid;
+    border-left: #B7B7B7 1px solid;
+    border-right: #B7B7B7 1px solid;
+    border-top: #B7B7B7 1px solid;
+    color: #000000;
+    cursor: text;
+    font-family: "Tahoma","宋体";
+    font-size: 9pt;
+    padding: 1px;
+}
+
+/* select box */
+SELECT
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #FFFFFF 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #FFFFFF 1px solid;
+    COLOR:#003366;
+    BORDER-BOTTOM: #000000 1px solid;
+    BACKGROUND-COLOR: #f4f4f4;
+}
+
+/* ------------------文字样式定义 ---------------- */
+
+.txt {
+	font : 10pt Tahoma,  宋体;
+	color:#000000;
+}
+
+.txtGlobal {
+	font : 10pt Tahoma,  宋体;
+	color:#000000;
+}
+.txtGlobalBold {
+	font : 10pt Tahoma,  宋体;
+	font-weight : bold;
+	color:#000000;
+}
+
+.feedbackPanelERROR {
+	color: red;
+	list-style: circle;
+	font-weight: bold;
+}
+
+.feedbackPanelINFO {
+	color: green;
+	list-style: circle;
+	font-weight: bold;
+}

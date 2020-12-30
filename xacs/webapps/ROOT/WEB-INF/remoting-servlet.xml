@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:aop="http://www.springframework.org/schema/aop"
+     xmlns:tx="http://www.springframework.org/schema/tx"
+     xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+     xmlns:context="http://www.springframework.org/schema/context"
+     xmlns:amq="http://activemq.apache.org/schema/core"
+     xsi:schemaLocation="
+     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
+     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+     http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
+     
+<!-- ============hessian ===============-->
+<!--	AreaDAO		x.acs.dao.AreaDAO		-->
+	<bean name="/AreaDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="AreaDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.AreaHome"/>
+	</bean>
+<!--	ATMErrorsStatsDAO		x.acs.dao.ATMErrorsStatsDAO		-->
+	<bean name="/ATMErrorsStatsDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="ATMErrorsStatsDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.ATMErrorsStatsHome"/>
+	</bean>
+<!--	BackupDAO		x.acs.dao.BackupDAO		-->
+	<bean name="/BackupDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="BackupDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.BackupHome"/>
+	</bean>
+<!--	ConfigurationDAO		x.acs.dao.ConfigurationDAO		-->
+	<bean name="/ConfigurationDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="ConfigurationDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.ConfigurationHome"/>
+	</bean>
+<!--	DataModelDAO		x.acs.dao.DataModelDAO		-->
+	<bean name="/DataModelDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="DataModelDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.DataModelHome"/>
+	</bean>
+<!--	DeviceProfile2SoftwareDAO		x.acs.dao.DeviceProfile2SoftwareDAO		-->
+	<bean name="/DeviceProfile2SoftwareDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="DeviceProfile2SoftwareDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.DeviceProfile2SoftwareHome"/>
+	</bean>
+<!--	DeviceProfileDAO		x.acs.dao.DeviceProfileDAO		-->
+	<bean name="/DeviceProfileDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="DeviceProfileDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.DeviceProfileHome"/>
+	</bean>
+<!--	DSLStatsDAO		x.acs.dao.DSLStatsDAO		-->
+	<bean name="/DSLStatsDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="DSLStatsDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.DSLStatsHome"/>
+	</bean>
+<!--	HardwareModelDAO		x.acs.dao.HardwareModelDAO		-->
+	<bean name="/HardwareModelDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="HardwareModelDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.HardwareModelHome"/>
+	</bean>
+<!--	Host2ServiceDAO		x.acs.dao.Host2ServiceDAO		-->
+	<bean name="/Host2ServiceDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="Host2ServiceDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.Host2ServiceHome"/>
+	</bean>
+<!--	HostPropertyDAO		x.acs.dao.HostPropertyDAO		-->
+	<bean name="/HostPropertyDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="HostPropertyDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.HostPropertyHome"/>
+	</bean>
+<!--	HostsDAO		x.acs.dao.HostsDAO		-->
+	<bean name="/HostsDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="HostsDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.HostsHome"/>
+	</bean>
+<!--	MsgRecordDAO		x.acs.dao.MsgRecordDAO		-->
+	<bean name="/MsgRecordDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="MsgRecordDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.MsgRecordHome"/>
+	</bean>
+<!--	OuiMapDAO		x.acs.dao.OuiMapDAO		-->
+	<bean name="/OuiMapDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="OuiMapDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.OuiMapHome"/>
+	</bean>
+<!--	ProfilePropertyDAO		x.acs.dao.ProfilePropertyDAO		-->
+	<bean name="/ProfilePropertyDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="ProfilePropertyDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.ProfilePropertyHome"/>
+	</bean>
+<!--	PropertyDAO		x.acs.dao.PropertyDAO		-->
+	<bean name="/PropertyDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="PropertyDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.PropertyHome"/>
+	</bean>
+<!--	ScriptDAO		x.acs.dao.ScriptDAO		-->
+	<bean name="/ScriptDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="ScriptDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.ScriptHome"/>
+	</bean>
+<!--	ServiceDAO		x.acs.dao.ServiceDAO		-->
+	<bean name="/ServiceDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="ServiceDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.ServiceHome"/>
+	</bean>
+<!--	ServicePropertyDAO		x.acs.dao.ServicePropertyDAO		-->
+	<bean name="/ServicePropertyDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="ServicePropertyDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.ServicePropertyHome"/>
+	</bean>
+<!--	SoftwareDAO		x.acs.dao.SoftwareDAO		-->
+	<bean name="/SoftwareDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="SoftwareDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.SoftwareHome"/>
+	</bean>
+<!--	SoftwareDetailDAO		x.acs.dao.SoftwareDetailDAO		-->
+	<bean name="/SoftwareDetailDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="SoftwareDetailDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.SoftwareDetailHome"/>
+	</bean>
+<!--	TemplateDAO		x.acs.dao.TemplateDAO		-->
+	<bean name="/TemplateDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="TemplateDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.TemplateHome"/>
+	</bean>
+<!--	UserDAO		x.acs.dao.UserDAO		-->
+	<bean name="/UserDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="UserDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.UserHome"/>
+	</bean>
+<!--	UserGroupDAO		x.acs.dao.UserGroupDAO		-->
+	<bean name="/UserGroupDAORemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
+		<property name="service" ref="UserGroupDAO"/> 
+		<property name="serviceInterface" value="x.acs.bean.UserGroupHome"/>
+	</bean>
+
+
+<!-- ============hessian end===============-->
+     
+</beans>
